@@ -6,37 +6,66 @@ Output: oligo sequences
 Josh Tycko
 October 2018
 
+Scan mode: can try many step sizes, do not optimize
+Optimize mode: slower, so best to do this only for one selected step size
 """
-
 import pandas as pd
 import argparse
 import dnachisel as dc
 
-parser = argparse.ArgumentParser(description="Get sequence of best transcript")
-parser.add_argument("in_file", type=str, help="Input file")
-parser.add_argument("out_file", type=str, help="Output filename start")
 
-# Optional arguments:
-parser.add_argument(
-    "-o",
-    "--optimize",
-    dest="opt",
-    help="Optimize the DNA sequences",
-    type=str,
-    default="",
-)
-parser.add_argument(
-    "-s",
-    dest="step",
-    type=str,
-    help="sliding window step size",
-    default="scan",
-)
+def main(in_file, out_file, do_opt):
+    TFdf = pd.read_csv(args.in_file)
 
-"""
-Scan mode: can try many step sizes, do not optimize
-Optimize mode: slower, so best to do this only for one selected step size
-"""
+    oligoLen = 300 - 2 * (
+        11 + 19
+    )  # 11 for TypeIIs restriction cloning and 19 for primer
+    print(oligoLen / 3, "amino acids per oligo")
+
+    steplist = []
+    if args.step == "scan":
+        steplist = [180, 150, 120, 90, 60, 30, 15]
+    else:
+        chosenStep = int(args.step)
+        steplist.append(chosenStep)
+
+    for step in steplist:
+        makeOligos(
+            df=TFdf,
+            step=step,
+            filterDesc="",
+            oligoLen=oligoLen,
+            out_file=args.out_file,
+            do_opt=args.opt,
+        )
+
+
+def get_parser():
+
+    parser = argparse.ArgumentParser(
+        description="Get sequence of best transcript"
+    )
+    parser.add_argument("in_file", type=str, help="Input file")
+    parser.add_argument("out_file", type=str, help="Output filename start")
+
+    # Optional arguments:
+    parser.add_argument(
+        "-o",
+        "--optimize",
+        dest="opt",
+        help="Optimize the DNA sequences",
+        type=str,
+        default="",
+    )
+    parser.add_argument(
+        "-s",
+        dest="step",
+        type=str,
+        help="sliding window step size",
+        default="scan",
+    )
+
+    return parser
 
 
 def optimizeOligo(dna_sequence, pattern):
@@ -90,20 +119,7 @@ def slidingWindow(sequence, winSize, step=1):
     yield sequence[-winSize:]
 
 
-args = parser.parse_args()
-TFdf = pd.read_csv(args.in_file)
-
-oligoLen = 300 - 2 * (
-    11 + 19
-)  # 11 for TypeIIs restriction cloning and 19 for primer
-print(oligoLen / 3, "amino acids per oligo")
-# step = args.step
-# if step%3 != 0:
-#     print('step size must be in-frame mod3')
-#     sys.exit()
-
-
-def makeOligos(df, step, filterDesc):
+def makeOligos(df, step, filterDesc, oligoLen, out_file, do_opt=False):
     rows_list = []
     for index, row in df.iterrows():
         if pd.isna(row["cds"]):  # Skip the rows that have no CDS
@@ -165,7 +181,7 @@ def makeOligos(df, step, filterDesc):
         oligodf = oligodf.drop_duplicates("Sequence")
 
     ## Optimize to remove BsmBI and fix GC content
-    if args.opt == "CodonOpt":
+    if do_opt == "CodonOpt":
         BsmBIpattern = dc.enzyme_pattern("BsmBI")
         for cds in set(list(oligodf["Sequence"])):
             try:
@@ -178,29 +194,12 @@ def makeOligos(df, step, filterDesc):
         filterDesc, str(step), oligodf["Segment"].count(), "Duplicates", dups
     )
     oligodf.to_csv(
-        args.out_file + filterDesc + "_step" + str(step) + args.opt + ".csv",
+        out_file + filterDesc + "_step" + str(step) + do_opt + ".csv",
         index=False,
     )
 
 
-steplist = []
-if args.step == "scan":
-    steplist = [180, 150, 120, 90, 60, 30, 15]
-else:
-    chosenStep = int(args.step)
-    steplist.append(chosenStep)
-
-# filterDesc = 'all'
-# for step in steplist:
-#     makeOligos(TFdf, step, filterDesc)
-
-# curdf = TFdf.loc[TFdf['Is TF?'] == 'Yes']
-# filterDesc = 'Lambert et al. curated'
-# for step in steplist:
-#     makeOligos(curdf, step, filterDesc)
-
-#joshdf = TFdf.loc[TFdf["Josh subset"] == "Yes"]
-#filterDesc = "Josh subset"
-for step in steplist:
-    #makeOligos(joshdf, step, filterDesc)
-    makeOligos(TFdf, step, filterDesc)
+if __name__ == "__main__":
+    parser = get_parser()
+    args = parser.parse_args()
+    main(in_file=args.in_file, out_file=args.out_file, do_opt=args.opt)

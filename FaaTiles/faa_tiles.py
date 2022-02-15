@@ -3,6 +3,8 @@ from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 from pathlib import Path
 import cmdlogtime
+import generateOligos as genO
+import pandas as pd
 import sys
 
 COMMAND_LINE_DEF_FILE = "./faa_tiles_cmdlinedef.txt"
@@ -16,10 +18,20 @@ def main(my_args):
     GFF = my_args["gff"]
     PROTEIN = my_args["protein"]
     proteins = build_protein_metadata(GFF, PROTEIN)
+    df = cast_proteins_as_df(proteins)
+    genO.makeOligos(
+            df=df,
+            step=10,
+            oligoLen=30,
+            filterDesc="",
+            out_file="oligo_out.csv",
+            do_opt=""
+            )
+
+
     add_na_seqs(proteins, GENOME)
-    outfile = (
-        Path(my_args["out_dir"])
-        / (Path(GFF).name.split(".")[0] + "_tiled.fa")
+    outfile = Path(my_args["out_dir"]) / (
+        Path(GFF).name.split(".")[0] + "_tiled.fa"
     )
     make_tiled_fasta(
         proteins,
@@ -27,6 +39,11 @@ def main(my_args):
         sz=int(my_args["tile_sz"]),
         shift=int(my_args["tile_shift"]),
     )
+
+
+def cast_proteins_as_df(proteins):
+    df = pd.DataFrame.from_dict(proteins, orient="index")
+    return df
 
 
 def make_tiled_fasta(proteins, outfile, sz, shift):

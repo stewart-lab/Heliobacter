@@ -1,28 +1,40 @@
 from Bio import SeqIO
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
+from pathlib import Path
+import cmdlogtime
+import sys
 
+COMMAND_LINE_DEF_FILE = "./faa_tiles_cmdlinedef.txt"
 
-GENOME = "GCF_017821535.1_ASM1782153v1_genomic.fna"
-GFF = "GCF_017821535.1_ASM1782153v1_genomic.gff"
-PROTEIN = "GCF_017821535.1_ASM1782153v1_protein.faa"
-TILED_OUT = "GCF_017821535.1_ASM1782153v1_tiled.fa"
-TILE_BLOCK_SZ = 30
-TILE_SZ = 240
 
 REV_C = str.maketrans("ACGT", "TGCA")
 
 
-def main():
-    proteins = build_protein_metadata()
-    add_na_seqs(proteins)
-    make_tiled_fasta(proteins)
+def main(my_args):
+    GENOME = my_args["genome"]
+    GFF = my_args["gff"]
+    PROTEIN = my_args["protein"]
+    proteins = build_protein_metadata(GFF, PROTEIN)
+    add_na_seqs(proteins, GENOME)
+    outfile = (
+        Path(my_args["out_dir"])
+        / (Path(GFF).name.split(".")[0] + "_tiled.fa")
+    )
+    make_tiled_fasta(
+        proteins,
+        outfile=outfile,
+        sz=int(my_args["tile_sz"]),
+        shift=int(my_args["tile_shift"]),
+    )
 
 
-def make_tiled_fasta(proteins):
-    with open(TILED_OUT, "w") as f:
+def make_tiled_fasta(proteins, outfile, sz, shift):
+    with open(outfile, "w") as f:
         for id in proteins:
-            for i, tile in enumerate(get_tiles(proteins[id]["na_seq"])):
+            for i, tile in enumerate(
+                get_tiles(proteins[id]["na_seq"], sz, shift)
+            ):
                 record = SeqRecord(
                     Seq(tile),
                     id=f"{id}_tile_{i:04d}",
@@ -32,32 +44,32 @@ def make_tiled_fasta(proteins):
                 SeqIO.write(record, f, "fasta")
 
 
-def get_tiles(seq):
+def get_tiles(seq, sz, shift):
     beg = 0
-    end = TILE_SZ
+    end = sz
     seq_len = len(seq)
     while end < seq_len:
         yield seq[beg:end]
-        beg += TILE_BLOCK_SZ
-        end += TILE_BLOCK_SZ
+        beg += shift
+        end += shift
 
 
-def get_genome_seq():
-    with open(GENOME, "r") as f:
+def get_genome_seq(genome):
+    with open(genome, "r") as f:
         return "".join(f.read().splitlines()[1:])
 
 
-def build_protein_metadata():
+def build_protein_metadata(gff, protein_faa):
     proteins = {}
     i = 0
-    for seq_record in SeqIO.parse(PROTEIN, "fasta"):
+    for seq_record in SeqIO.parse(protein_faa, "fasta"):
         i = i + 1
         proteins[seq_record.id] = {
             "description": seq_record.description,
             "aa_seq": str(seq_record.seq),
         }
     print(f" {i} total proteins read, {len(proteins)} total ids.")
-    with open(GFF, "r") as f:
+    with open(gff, "r") as f:
         for line in f:
             if not line.startswith("NZ"):
                 continue
@@ -73,8 +85,8 @@ def build_protein_metadata():
     return proteins
 
 
-def add_na_seqs(proteins):
-    genome_seq = get_genome_seq()
+def add_na_seqs(proteins, genome):
+    genome_seq = get_genome_seq(genome)
     duds = []
     big_duds = []
     for id in proteins:
@@ -195,4 +207,8 @@ def parse_cds(fields):
 
 
 if __name__ == "__main__":
-    main()
+    (start_time_secs, pretty_start_time, my_args, logfile) = cmdlogtime.begin(
+        COMMAND_LINE_DEF_FILE, sys.argv[0]
+    )
+    main(my_args)
+    cmdlogtime.end(logfile, start_time_secs)

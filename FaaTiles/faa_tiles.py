@@ -18,6 +18,7 @@ def main(my_args):
     GFF = my_args["gff"]
     PROTEIN = my_args["protein"]
     proteins = build_protein_metadata(GFF, PROTEIN)
+    add_na_seqs(proteins, GENOME)
     df = cast_proteins_as_df(proteins)
     genO.makeOligos(
             df=df,
@@ -27,9 +28,9 @@ def main(my_args):
             out_file="oligo_out.csv",
             do_opt=""
             )
+    exit()
 
 
-    add_na_seqs(proteins, GENOME)
     outfile = Path(my_args["out_dir"]) / (
         Path(GFF).name.split(".")[0] + "_tiled.fa"
     )
@@ -43,6 +44,8 @@ def main(my_args):
 
 def cast_proteins_as_df(proteins):
     df = pd.DataFrame.from_dict(proteins, orient="index")
+    df.rename(columns={'na_seq': 'cds'}, inplace=True)
+    df["Ensembl ID"] = df.index
     return df
 
 

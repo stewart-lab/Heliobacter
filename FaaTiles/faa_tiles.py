@@ -6,30 +6,48 @@ import cmdlogtime
 import generateOligos as genO
 import pandas as pd
 import sys
+import uniprot
 
 COMMAND_LINE_DEF_FILE = "./faa_tiles_cmdlinedef.txt"
-
-
+UNIPROT_IDS_FILE = "../Data/uniprot_hecliobacter_ids.csv"
 REV_C = str.maketrans("ACGT", "TGCA")
 
 
+def get_uniprot_ids():
+    with open(UNIPROT_IDS_FILE, "r") as f:
+        return [line.split()[0] for line in f][1:]
+
+
+def get_uniprot_seqs():
+    """
+    https://github.com/boscoh/uniprot
+
+    Uniprot.org provides a seqid mapping service, but you must specify the 
+    seqid types, which are listed at 
+    http://www.uniprot.org/faq/28#id_mapping_examples.
+    """
+    ids = get_uniprot_ids()
+    seqs = uniprot.batch_uniprot_metadata(" ".join(ids))
+    return dict(zip(ids, seqs))
+
+
 def main(my_args):
+    proteins = get_uniprot_seqs()
+    df = cast_proteins_as_df(proteins)
     GENOME = my_args["genome"]
     GFF = my_args["gff"]
     PROTEIN = my_args["protein"]
     proteins = build_protein_metadata(GFF, PROTEIN)
     add_na_seqs(proteins, GENOME)
-    df = cast_proteins_as_df(proteins)
     genO.makeOligos(
-            df=df,
-            step=10,
-            oligoLen=30,
-            filterDesc="",
-            out_file="oligo_out.csv",
-            do_opt=""
-            )
+        df=df,
+        step=10,
+        oligoLen=30,
+        filterDesc="",
+        out_file="oligo_out.csv",
+        do_opt="CodonOpt",
+    )
     exit()
-
 
     outfile = Path(my_args["out_dir"]) / (
         Path(GFF).name.split(".")[0] + "_tiled.fa"
@@ -44,7 +62,7 @@ def main(my_args):
 
 def cast_proteins_as_df(proteins):
     df = pd.DataFrame.from_dict(proteins, orient="index")
-    df.rename(columns={'na_seq': 'cds'}, inplace=True)
+    df.rename(columns={"na_seq": "cds"}, inplace=True)
     df["Ensembl ID"] = df.index
     return df
 

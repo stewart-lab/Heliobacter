@@ -76,7 +76,7 @@ def optimizeOligo(dna_sequence, pattern):
             dc.EnforceGCContent(mini=0.20, maxi=0.75, window=50),
             dc.EnforceTranslation(),
         ],
-        objectives=[dc.CodonOptimize(species="h_sapiens")],
+        objectives=[dc.CodonOptimize(species="e_coli")],
     )
     try:
         problem.resolve_constraints()
@@ -110,7 +110,7 @@ def slidingWindow(sequence, winSize, step=1):
         )
 
     # Pre-compute number of chunks to emit
-    numOfChunks = ((len(sequence) - winSize) / step) + 1
+    numOfChunks = int((len(sequence) - winSize) / step) + 1
 
     # Do the work
     for i in range(0, numOfChunks * step, step):
@@ -182,7 +182,8 @@ def makeOligos(df, step, filterDesc, oligoLen, out_file, do_opt=False):
 
     ## Optimize to remove BsmBI and fix GC content
     if do_opt == "CodonOpt":
-        BsmBIpattern = dc.enzyme_pattern("BsmBI")
+        #BsmBIpattern = dc.enzyme_pattern("BsmBI")
+        BsmBIpattern = dc.EnzymeSitePattern("BsmBI")
         for cds in set(list(oligodf["Sequence"])):
             try:
                 optcds = optimizeOligo(cds, BsmBIpattern)

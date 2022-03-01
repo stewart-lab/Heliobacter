@@ -1,0 +1,1574 @@
+protein	Conserved Chaperone Binding Detection (EffectiveCCBD)	Search for secreted type-III proteins (EffectiveT3)	N-terminal signal detection (Predotar, Animal/Human)	N-terminal signal detection (Predotar, Plants-model)	Eukaryotic-like domain (EffectiveELD; PFxxx Z-Score)	T4SS effector prediction (T4SEpre)	Comments
+85962.HP0275	-	-	ER	ER	PF01535 9	YES	-
+85962.HP1353	-	-	ER	ER	-	YES	-
+85962.HP0082	-	-	ER	ER	-	YES	-
+85962.HP0236	-	-	ER	ER	-	YES	-
+85962.HP0542	-	-	ER	ER	-	YES	-
+85962.HP1524	-	-	ER	ER	-	YES	-
+85962.HP0323	-	-	ER	ER	-	YES	-
+85962.HP1083	-	-	possibly ER	possibly ER	-	YES	-
+85962.HP1080	-	-	ER	ER	-	YES	-
+85962.HP1313	-	-	possibly mitochondrial	possibly mitochondrial	-	YES	-
+85962.HP0130	-	-	ER	ER	-	YES	-
+85962.HP0041	-	-	ER	ER	-	YES	-
+85962.HP0129	-	-	ER	ER	-	YES	-
+85962.HP0863	-	-	ER	ER	-	YES	-
+85962.HP1438	-	-	ER	possibly mitochondrial	-	YES	-
+85962.HP1454	-	-	ER	ER	-	YES	-
+85962.HP1457	-	-	ER	ER	-	YES	-
+85962.HP0099	-	-	ER	ER	-	YES	-
+85962.HP1274	-	-	ER	ER	-	YES	-
+85962.HP0605	-	-	ER	ER	-	YES	-
+85962.HP0037	-	-	ER	possibly ER	-	YES	-
+85962.HP1033	-	-	possibly mitochondrial	plastid	-	YES	-
+85962.HP0721	-	-	ER	ER	-	YES	-
+85962.HP0508	-	-	ER	ER	-	YES	-
+85962.HP0973	-	-	possibly ER	possibly ER	-	YES	-
+85962.HP1340	-	-	ER	ER	-	YES	-
+85962.HP0981	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP0980	-	-	ER	ER	-	-	-
+85962.HP0985	-	-	ER	ER	-	-	-
+85962.HP0989	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP0988	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1227	-	-	ER	ER	-	-	-
+85962.HP1225	-	-	ER	ER	-	-	-
+85962.HP1357	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1350	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1359	-	-	ER	ER	-	-	-
+85962.HP1358	-	-	ER	ER	-	-	-
+85962.HP0080	-	-	ER	ER	-	-	-
+85962.HP0083	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP0085	-	-	ER	ER	-	-	-
+85962.HP0087	-	-	ER	ER	-	-	-
+85962.HP1577	-	-	ER	ER	-	-	-
+85962.HP1572	-	-	ER	ER	-	-	-
+85962.HP1571	-	-	ER	ER	-	-	-
+85962.HP0772	-	-	ER	ER	-	-	-
+85962.HP0771	-	-	ER	ER	-	-	-
+85962.HP1173	-	-	ER	ER	-	-	-
+85962.HP1172	-	-	ER	ER	-	-	-
+85962.HP1177	-	-	ER	ER	-	-	-
+85962.HP1179	-	-	ER	ER	-	-	-
+85962.HP0796	-	-	ER	ER	-	-	-
+85962.HP0593	-	-	none	possibly mitochondrial	PF01555 5	-	-
+85962.HP0262	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0312	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0313	-	-	ER	ER	-	-	-
+85962.HP0317	-	-	ER	ER	-	-	-
+85962.HP0597	-	-	ER	ER	-	-	-
+85962.HP0426	-	-	none	none	PF07510 6;PF03235 7	-	-
+85962.HP0425	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0611	-	-	ER	ER	-	-	-
+85962.HP0229	-	-	ER	ER	-	-	-
+85962.HP0556	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0226	-	-	ER	ER	-	-	-
+85962.HP0227	-	-	ER	ER	-	-	-
+85962.HP0223	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0889	-	-	ER	ER	-	-	-
+85962.HP0880	-	-	ER	ER	-	-	-
+85962.HP0885	-	-	possibly ER	possibly plastid	-	-	-
+85962.HP0887	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0953	-	-	ER	ER	-	-	-
+85962.HP0950	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0957	-	-	ER	ER	-	-	-
+85962.HP1216	-	-	ER	ER	-	-	-
+85962.HP1212	-	-	ER	ER	-	-	-
+85962.HP1361	-	-	ER	ER	-	-	-
+85962.HP0093	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP1548	-	-	ER	ER	-	-	-
+85962.HP0097	-	-	ER	ER	-	-	-
+85962.HP0094	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1546	-	-	ER	ER	-	-	-
+85962.HP0761	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0760	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0762	-	-	ER	ER	-	-	-
+85962.HP0764	-	-	ER	ER	-	-	-
+85962.HP1148	-	-	ER	ER	-	-	-
+85962.HP1144	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP1141	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0165	-	-	ER	ER	-	-	-
+85962.HP0163	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP0160	-	-	ER	ER	-	-	-
+85962.HP0788	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0787	-	-	possibly mitochondrial	mitochondrial	-	-	-
+85962.HP0786	-	-	possibly mitochondrial	mitochondrial	-	-	-
+85962.HP0785	-	-	ER	ER	-	-	-
+85962.HP0782	-	-	ER	ER	-	-	-
+85962.HP0781	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP0780	-	-	ER	ER	-	-	-
+85962.HP0302	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0305	-	-	ER	ER	-	-	-
+85962.HP0304	-	-	ER	ER	-	-	-
+85962.HP0309	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0308	-	-	ER	ER	-	-	-
+85962.HP0437	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0438	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP0235	-	-	ER	ER	-	-	-
+85962.HP0546	-	-	possibly ER	possibly mitochondrial	-	-	-
+85962.HP0896	-	-	ER	ER	-	-	-
+85962.HP0895	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0894	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0945	-	-	ER	ER	-	-	-
+85962.HP0946	-	-	ER	ER	-	-	-
+85962.HP0940	-	-	ER	ER	-	-	-
+85962.HP0942	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0948	-	-	ER	ER	-	-	-
+85962.HP1128	-	-	ER	ER	-	-	-
+85962.HP1201	-	-	mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1206	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP1378	-	-	ER	ER	-	-	-
+85962.HP1372	-	-	ER	ER	-	-	-
+85962.HP1551	-	-	ER	ER	-	-	-
+85962.HP1550	-	-	ER	ER	-	-	-
+85962.HP1151	-	-	possibly mitochondrial	mitochondrial	-	-	-
+85962.HP1157	-	-	ER	ER	-	-	-
+85962.HP1156	-	-	ER	ER	-	-	-
+85962.HP0150	-	-	ER	ER	-	-	-
+85962.HP0156	-	-	ER	ER	-	-	-
+85962.HP0158	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0443	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0209	-	-	ER	ER	-	-	-
+85962.HP0203	-	-	ER	ER	-	-	-
+85962.HP0206	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0204	-	-	ER	ER	-	-	-
+85962.HP1450	-	-	ER	ER	-	-	-
+85962.HP0931	-	-	ER	ER	-	-	-
+85962.HP0933	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP0936	-	-	ER	ER	-	-	-
+85962.HP1579	-	-	ER	ER	-	-	-
+85962.HP0841	-	-	possibly ER	possibly ER	-	-	-
+85962.HP1098	-	-	ER	ER	-	-	-
+85962.HP1090	-	-	ER	ER	-	-	-
+85962.HP1094	-	-	possibly ER	possibly ER	-	-	-
+85962.HP1095	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP1096	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1300	-	-	ER	ER	-	-	-
+85962.HP1303	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP1306	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1527	-	-	possibly ER	ER	-	-	-
+85962.HP0149	-	-	ER	ER	-	-	-
+85962.HP0148	-	-	ER	ER	-	-	-
+85962.HP0145	-	-	ER	ER	-	-	-
+85962.HP0146	-	-	ER	ER	-	-	-
+85962.HP0141	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0140	-	-	possibly ER	possibly ER	-	-	-
+85962.HP1419	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0320	-	-	ER	ER	-	-	-
+85962.HP0325	-	-	ER	ER	-	-	-
+85962.HP0326	-	-	mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0456	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0175	-	-	ER	ER	-	-	-
+85962.HP0215	-	-	possibly ER	ER	-	-	-
+85962.HP0217	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0211	-	-	ER	ER	-	-	-
+85962.HP1174	-	-	ER	ER	-	-	-
+85962.HP1512	-	-	ER	possibly ER	-	-	-
+85962.HP0923	-	-	ER	ER	-	-	-
+85962.HP0922	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP0858	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0856	-	-	ER	ER	-	-	-
+85962.HP0855	-	-	ER	ER	-	-	-
+85962.HP1088	-	-	ER	possibly ER	-	-	-
+85962.HP1082	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1081	-	-	ER	ER	-	-	-
+85962.HP1085	-	-	ER	ER	-	-	-
+85962.HP1312	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1316	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP1314	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP1535	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1534	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP1538	-	-	ER	ER	-	-	-
+85962.HP1407	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP1400	-	-	possibly ER	possibly ER	-	-	-
+85962.HP1409	-	-	none	none	PF07510 6;PF03235 7	-	-
+85962.HP0686	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0684	-	-	ER	ER	-	-	-
+85962.HP0683	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP0043	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP0669	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0660	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0265	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0595	-	-	ER	ER	-	-	-
+85962.HP0466	-	-	ER	ER	-	-	-
+85962.HP0467	-	-	ER	ER	-	-	-
+85962.HP0224	-	-	ER	ER	-	-	-
+85962.HP0919	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0914	-	-	ER	possibly ER	-	-	-
+85962.HP0912	-	-	ER	ER	-	-	-
+85962.HP0121	-	-	none	possibly mitochondrial	-	YES	-
+85962.HP0861	-	-	ER	ER	-	-	-
+85962.HP1326	-	-	ER	ER	-	-	-
+85962.HP1327	-	-	mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1322	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP1328	-	-	ER	ER	-	-	-
+85962.HP1183	-	-	ER	ER	-	-	-
+85962.HP1180	-	-	ER	ER	-	-	-
+85962.HP1181	-	-	ER	ER	-	-	-
+85962.HP1186	-	-	ER	ER	-	-	-
+85962.HP1185	-	-	ER	ER	-	-	-
+85962.HP0127	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0126	-	-	mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0125	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1436	-	-	possibly ER	possibly ER	-	-	-
+85962.HP1435	-	-	ER	ER	-	-	-
+85962.HP0693	-	-	mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0694	-	-	ER	ER	-	-	-
+85962.HP0699	-	-	ER	ER	-	-	-
+85962.HP0057	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0055	-	-	ER	ER	-	-	-
+85962.HP0052	-	-	mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1506	-	-	ER	ER	-	-	-
+85962.HP1502	-	-	ER	ER	-	-	-
+85962.HP0677	-	-	ER	ER	-	-	-
+85962.HP0671	-	-	ER	ER	-	-	-
+85962.HP0586	-	-	ER	ER	-	-	-
+85962.HP0580	-	-	ER	ER	-	-	-
+85962.HP0583	-	-	ER	ER	-	-	-
+85962.HP0271	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP0270	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0279	-	-	ER	ER	-	-	-
+85962.HP0278	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0479	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0471	-	-	ER	ER	-	-	-
+85962.HP0473	-	-	ER	ER	-	-	-
+85962.HP0472	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0475	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP0474	-	-	ER	ER	-	-	-
+85962.HP0477	-	-	ER	ER	-	-	-
+85962.HP0476	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1054	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1055	-	-	ER	ER	-	-	-
+85962.HP1056	-	-	possibly ER	possibly ER	-	-	-
+85962.HP1057	-	-	ER	ER	-	-	-
+85962.HP0874	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0876	-	-	ER	ER	-	-	-
+85962.HP0871	-	-	ER	ER	-	-	-
+85962.HP0870	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0873	-	-	possibly ER	possibly ER	-	-	-
+85962.HP1330	-	-	ER	ER	-	-	-
+85962.HP1333	-	-	ER	ER	-	-	-
+85962.HP1195	-	-	mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1191	-	-	mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1192	-	-	ER	ER	-	-	-
+85962.HP0112	-	-	ER	ER	-	-	-
+85962.HP1424	-	-	ER	ER	-	-	-
+85962.HP1511	-	-	ER	ER	-	-	-
+85962.HP0643	-	-	possibly mitochondrial	none	-	YES	-
+85962.HP0646	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0647	-	-	ER	ER	-	-	-
+85962.HP0644	-	-	ER	ER	-	-	-
+85962.HP0645	-	-	ER	ER	-	-	-
+85962.HP0249	-	-	ER	ER	-	-	-
+85962.HP0246	-	-	ER	ER	-	-	-
+85962.HP0244	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0241	-	-	ER	ER	-	-	-
+85962.HP0485	-	-	ER	ER	-	-	-
+85962.HP0486	-	-	ER	ER	-	-	-
+85962.HP0487	-	-	ER	ER	-	-	-
+85962.HP0039m	-	-	ER	ER	-	-	-
+85962.HP0803	-	-	ER	ER	-	-	-
+85962.HP0807	-	-	ER	ER	-	-	-
+85962.HP0101	-	-	ER	ER	-	-	-
+85962.HP0103	-	-	ER	ER	-	-	-
+85962.HP0104	-	-	ER	ER	-	-	-
+85962.HP0107	-	-	possibly mitochondrial	possibly plastid	-	-	-
+85962.HP0108	-	-	mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1453	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1455	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP1456	-	-	ER	ER	-	-	-
+85962.HP1294	-	-	mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1295	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP1290	-	-	ER	ER	-	-	-
+85962.HP0079	-	-	ER	ER	-	-	-
+85962.HP0078	-	-	ER	ER	-	-	-
+85962.HP0074	-	-	ER	ER	-	-	-
+85962.HP0071	-	-	ER	ER	-	-	-
+85962.HP1079	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1071	-	-	ER	ER	-	-	-
+85962.HP1077	-	-	ER	ER	-	-	-
+85962.HP1075	-	-	ER	ER	-	-	-
+85962.HP0655	-	-	ER	ER	-	-	-
+85962.HP0657	-	-	ER	ER	-	-	-
+85962.HP0656	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0659	-	-	ER	ER	-	-	-
+85962.HP0258	-	-	ER	ER	-	-	-
+85962.HP0251	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP0252	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0257	-	-	ER	ER	-	-	-
+85962.HP0198	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0497	-	-	ER	ER	-	-	-
+85962.HP0495	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0494	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0493	-	-	ER	ER	-	-	-
+85962.HP0492	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0491	-	-	mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0499	-	-	ER	ER	-	-	-
+85962.HP0498	-	-	ER	ER	-	-	-
+85962.HP0817	-	-	ER	ER	-	-	-
+85962.HP0815	-	-	ER	ER	-	-	-
+85962.HP1440	-	-	ER	ER	-	-	-
+85962.HP1446	-	-	ER	ER	-	-	-
+85962.HP1445	-	-	ER	ER	-	-	-
+85962.HP1283	-	-	possibly ER	possibly ER	-	-	-
+85962.HP1286	-	-	ER	ER	-	-	-
+85962.HP0398	-	-	ER	ER	-	-	-
+85962.HP0003	-	-	possibly ER	possibly ER	-	-	-
+85962.HP1064	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP1066	-	-	ER	ER	-	-	-
+85962.HP1060	-	-	ER	ER	-	-	-
+85962.HP1069	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0622	-	-	ER	ER	-	-	-
+85962.HP0627	-	-	ER	ER	-	-	-
+85962.HP0629	-	-	none	none	PF07510 6;PF03235 7	-	-
+85962.HP0714	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0717	-	-	none	possibly mitochondrial	-	YES	-
+85962.HP0710	-	-	ER	ER	-	-	-
+85962.HP0711	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP0718	-	-	ER	ER	-	-	-
+85962.HP0538	-	-	ER	ER	-	-	-
+85962.HP0539	-	-	ER	ER	-	-	-
+85962.HP0536	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP0537	-	-	ER	possibly ER	-	-	-
+85962.HP0532	-	-	ER	ER	-	-	-
+85962.HP0355	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1168	-	-	ER	ER	-	-	-
+85962.HP1169	-	-	possibly ER	possibly ER	-	-	-
+85962.HP1549	-	-	mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0826	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0822	-	-	possibly ER	ER	-	-	-
+85962.HP1381	-	-	ER	ER	-	-	-
+85962.HP1383	-	-	possibly ER	ER	-	-	-
+85962.HP1387	-	-	possibly ER	possibly ER	-	-	-
+85962.HP1477	-	-	ER	ER	-	-	-
+85962.HP1473	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1270	-	-	ER	ER	-	-	-
+85962.HP1271	-	-	ER	ER	-	-	-
+85962.HP1272	-	-	ER	ER	-	-	-
+85962.HP1498	-	-	ER	ER	-	-	-
+85962.HP0383	-	-	ER	ER	-	-	-
+85962.HP0382	-	-	ER	ER	-	-	-
+85962.HP0387	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0018	-	-	ER	ER	-	-	-
+85962.HP0013	-	-	ER	ER	-	-	-
+85962.HP1149	-	-	possibly mitochondrial	mitochondrial	-	-	-
+85962.HP0015	-	-	ER	ER	-	-	-
+85962.HP1010	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1012	-	-	ER	ER	-	-	-
+85962.HP1016	-	-	ER	ER	-	-	-
+85962.HP1017	-	-	ER	mitochondrial	-	-	-
+85962.HP0630	-	-	mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0636	-	-	ER	ER	-	-	-
+85962.HP0638	-	-	ER	ER	-	-	-
+85962.HP0706	-	-	ER	ER	-	-	-
+85962.HP0702	-	-	ER	ER	-	-	-
+85962.HP1124	-	-	ER	ER	-	-	-
+85962.HP1125	-	-	ER	ER	-	-	-
+85962.HP1126	-	-	ER	ER	-	-	-
+85962.HP0709	-	-	ER	ER	-	-	-
+85962.HP1369m	-	-	none	none	PF01555 5	YES	-
+85962.HP0529	-	-	ER	ER	-	-	-
+85962.HP0528	-	-	ER	possibly ER	-	-	-
+85962.HP0523	-	-	ER	ER	-	-	-
+85962.HP0522	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0839	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP0838	-	-	ER	ER	-	-	-
+85962.HP0831	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0833	-	-	ER	ER	-	-	-
+85962.HP0836	-	-	ER	ER	-	-	-
+85962.HP1392	-	-	mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1395	-	-	ER	ER	-	-	-
+85962.HP1461	-	-	ER	ER	-	-	-
+85962.HP1463	-	-	ER	ER	-	-	-
+85962.HP1464	-	-	ER	ER	-	-	-
+85962.HP1467	-	-	ER	ER	-	-	-
+85962.HP1469	-	-	ER	ER	-	-	-
+85962.HP1267	-	-	ER	ER	-	-	-
+85962.HP1260	-	-	ER	ER	-	-	-
+85962.HP1269	-	-	ER	ER	-	-	-
+85962.HP1489	-	-	ER	ER	-	-	-
+85962.HP1488	-	-	possibly ER	possibly ER	-	-	-
+85962.HP1487	-	-	ER	ER	-	-	-
+85962.HP1486	-	-	ER	ER	-	-	-
+85962.HP1484	-	-	ER	ER	-	-	-
+85962.HP0025	-	-	ER	ER	-	-	-
+85962.HP0022	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0021	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP0028	-	-	ER	ER	-	-	-
+85962.HP1002	-	-	ER	ER	-	-	-
+85962.HP1009	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0282	-	-	ER	ER	-	-	-
+85962.HP0284	-	-	ER	ER	-	-	-
+85962.HP0288	-	-	ER	ER	-	-	-
+85962.HP0730	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP0737	-	-	ER	ER	-	-	-
+85962.HP1137	-	-	ER	ER	-	-	-
+85962.HP1136	-	-	ER	ER	-	-	-
+85962.HP0518	-	-	ER	ER	-	-	-
+85962.HP0519	-	-	ER	ER	-	-	-
+85962.HP0513	-	-	none	none	PF07510 6;PF03235 7	-	-
+85962.HP0517	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0358	-	-	ER	ER	-	-	-
+85962.HP0606	-	-	ER	ER	-	-	-
+85962.HP0607	-	-	ER	ER	-	-	-
+85962.HP0351	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0540	-	-	ER	ER	-	-	-
+85962.HP0234	-	-	ER	ER	-	-	-
+85962.HP0545	-	-	ER	possibly ER	-	-	-
+85962.HP0231	-	-	ER	ER	-	-	-
+85962.HP0119	-	-	ER	ER	-	-	-
+85962.HP1252	-	-	ER	ER	-	-	-
+85962.HP1253	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1250	-	-	ER	ER	-	-	-
+85962.HP1251	-	-	ER	ER	-	-	-
+85962.HP1255	-	-	ER	ER	-	-	-
+85962.HP1039	-	-	ER	ER	-	-	-
+85962.HP1036	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0299	-	-	ER	ER	-	-	-
+85962.HP0298	-	-	ER	ER	-	-	-
+85962.HP0724	-	-	ER	ER	-	-	-
+85962.HP0727	-	-	possibly ER	ER	-	-	-
+85962.HP0726	-	-	possibly ER	possibly ER	-	-	-
+85962.HP1108	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP1106	-	-	ER	ER	-	-	-
+85962.HP0506	-	-	ER	ER	-	-	-
+85962.HP0349	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0348	-	-	possibly mitochondrial	none	-	YES	-
+85962.HP0344	-	-	ER	ER	-	-	-
+85962.HP0343	-	-	ER	ER	-	-	-
+85962.HP0342	-	-	ER	ER	-	-	-
+85962.HP1049	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP1044	-	-	ER	ER	-	-	-
+85962.HP1249	-	-	mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1248	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1245	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP1247	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1243	-	-	ER	ER	-	-	-
+85962.HP1028	-	-	ER	ER	-	-	-
+85962.HP1023	-	-	ER	ER	-	-	-
+85962.HP0758	-	-	ER	ER	-	-	-
+85962.HP0759	-	-	ER	ER	-	-	-
+85962.HP0750	-	-	ER	ER	-	-	-
+85962.HP1117	-	-	ER	ER	-	-	-
+85962.HP1113	-	-	ER	ER	-	-	-
+85962.HP0194	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0195	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP1118	-	-	ER	ER	-	-	-
+85962.HP0190	-	-	ER	ER	-	-	-
+85962.HP0573	-	-	ER	ER	-	-	-
+85962.HP0575	-	-	ER	possibly ER	-	-	-
+85962.HP0576	-	-	ER	possibly ER	-	-	-
+85962.HP0578	-	-	ER	ER	-	-	-
+85962.HP0579	-	-	ER	ER	-	-	-
+85962.HP0378	-	-	ER	ER	-	-	-
+85962.HP0377	-	-	ER	ER	-	-	-
+85962.HP0408	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0407	-	-	mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0997	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP0992	-	-	possibly ER	possibly ER	-	-	-
+85962.HP0998	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0036	-	-	ER	ER	-	-	-
+85962.HP0970	-	-	ER	ER	-	-	-
+85962.HP1234	-	-	ER	ER	-	-	-
+85962.HP1235	-	-	ER	ER	-	-	-
+85962.HP1586	-	-	ER	ER	-	-	-
+85962.HP1580	-	-	ER	possibly ER	-	-	-
+85962.HP1581	-	-	ER	ER	-	-	-
+85962.HP1344	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1346	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP1341	-	-	possibly ER	possibly ER	-	-	-
+85962.HP1342	-	-	ER	ER	-	-	-
+85962.HP1348	-	-	ER	ER	-	-	-
+85962.HP1349	-	-	possibly ER	possibly ER	-	-	-
+85962.HP1568	-	-	ER	ER	-	-	-
+85962.HP1569	-	-	ER	ER	-	-	-
+85962.HP1564	-	-	ER	ER	-	-	-
+85962.HP1565	-	-	ER	ER	-	-	-
+85962.HP1566	-	-	ER	ER	-	-	-
+85962.HP1561	-	-	ER	ER	-	-	-
+85962.HP1562	-	-	ER	mitochondrial	-	-	-
+85962.HP0749	-	-	ER	ER	-	-	-
+85962.HP0743	-	-	ER	ER	-	-	-
+85962.HP0742	-	-	mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0740	-	-	ER	ER	-	-	-
+85962.HP0746	-	-	ER	ER	-	-	-
+85962.HP0189	-	-	ER	ER	-	-	-
+85962.HP1163	-	-	ER	ER	-	-	-
+85962.HP1165	-	-	ER	ER	-	-	-
+85962.HP1167	-	-	ER	ER	-	-	-
+85962.HP0180	-	-	ER	ER	-	-	-
+85962.HP0186	-	-	none	none	PF07510 6	YES	-
+85962.HP0563	-	-	ER	ER	-	-	-
+85962.HP0567	-	-	ER	ER	-	-	-
+85962.HP0360	-	-	possibly mitochondrial	possibly plastid	-	-	-
+85962.HP0362	-	-	ER	ER	-	-	-
+85962.HP0369	-	-	possibly mitochondrial	possibly mitochondrial	-	-	-
+85962.HP0416	-	-	mitochondrial	mitochondrial	-	-	-
+85962.HP0415	-	-	ER	ER	-	-	-
+85962.HP0410	-	-	ER	ER	-	-	-
+85962.HP1352	-	-	none	none	PF01555 5	-	-
+85962.HP0081	-	-	possibly mitochondrial	not used	-	-	-
+85962.HP1574	-	-	possibly mitochondrial	none	-	-	-
+85962.HP0773	-	-	none	possibly mitochondrial	-	-	-
+85962.HP0797	-	-	possibly ER	none	-	-	-
+85962.HP0260	-	-	none	none	PF01555 5	-	-
+85962.HP0594	-	-	ER	not used	-	-	-
+85962.HP0427	-	-	possibly mitochondrial	none	-	-	-
+85962.HP0613	-	-	possibly mitochondrial	none	-	-	-
+85962.HP0888	-	-	none	none	-	YES	-
+85962.HP0884	-	-	none	none	-	YES	-
+85962.HP0951	-	-	none	none	-	YES	-
+85962.HP1362	-	-	none	none	-	YES	-
+85962.HP1360	-	-	possibly mitochondrial	none	-	-	-
+85962.HP1367	-	-	none	none	PF01555 5	-	-
+85962.HP1364	-	-	none	possibly ER	-	-	-
+85962.HP1368	-	-	none	none	PF01555 5	-	-
+85962.HP0092	-	-	none	none	PF01555 5	-	-
+85962.HP0090	-	-	none	none	-	YES	-
+85962.HP0095	-	-	possibly ER	none	-	-	-
+85962.HP0098	-	-	none	none	-	YES	-
+85962.HP1145	-	-	possibly ER	none	-	-	-
+85962.HP0164	-	-	none	none	-	YES	-
+85962.HP0162	-	-	possibly mitochondrial	none	-	-	-
+85962.HP0784	-	-	ER	not used	-	-	-
+85962.HP0783	-	-	possibly ER	none	-	-	-
+85962.HP0301	-	-	none	none	-	YES	-
+85962.HP0307	-	-	possibly mitochondrial	none	-	-	-
+85962.HP0436	-	-	none	possibly mitochondrial	-	-	-
+85962.HP0431	-	-	none	possibly mitochondrial	-	-	-
+85962.HP0238	-	-	possibly mitochondrial	none	-	-	-
+85962.HP0547	-	-	none	none	-	YES	-
+85962.HP0897	-	-	none	none	-	YES	-
+85962.HP0947	-	-	none	possibly plastid	-	-	-
+85962.HP0943	-	-	possibly ER	none	-	-	-
+85962.HP1207	-	-	none	possibly ER	-	-	-
+85962.HP1373	-	-	ER	none	-	-	-
+85962.HP1555	-	-	none	none	-	YES	-
+85962.HP0157	-	-	possibly ER	none	-	-	-
+85962.HP0159	-	-	none	none	PF01501 6	-	-
+85962.HP0338	-	-	none	none	-	YES	-
+85962.HP0441	-	-	possibly mitochondrial	none	-	-	-
+85962.HP0207	-	-	possibly mitochondrial	none	-	-	-
+85962.HP0930	-	-	none	none	-	YES	-
+85962.HP0934	-	-	possibly ER	none	-	-	-
+85962.HP0937	-	-	none	none	PF07510 6	-	-
+85962.HP0938	-	-	none	none	PF03235 7	-	-
+85962.HP0939	-	-	possibly ER	none	-	-	-
+85962.HP0845	-	-	none	possibly mitochondrial	-	-	-
+85962.HP1578	-	-	none	none	PF01501 6	-	-
+85962.HP0089	-	-	none	none	-	YES	-
+85962.HP1301	-	-	possibly mitochondrial	none	-	-	-
+85962.HP1525	-	-	possibly ER	none	-	-	-
+85962.HP1526	-	-	possibly mitochondrial	none	-	-	-
+85962.HP1529	-	-	none	none	-	YES	-
+85962.HP0147	-	-	possibly ER	none	-	-	-
+85962.HP1416	-	-	none	none	PF01501 6	-	-
+85962.HP0324	-	-	possibly ER	none	-	-	-
+85962.HP0453	-	-	none	none	-	YES	-
+85962.HP0455	-	-	none	possibly mitochondrial	-	-	-
+85962.HP0176	-	-	none	none	-	YES	-
+85962.HP0170	-	-	none	none	-	YES	-
+85962.HP0921	-	-	none	possibly mitochondrial	-	-	-
+85962.HP0852	-	-	none	none	-	YES	-
+85962.HP1087	-	-	possibly mitochondrial	none	-	-	-
+85962.HP0139	-	-	none	none	-	YES	-
+85962.HP0135	-	-	ER	not used	-	-	-
+85962.HP0137	-	-	none	possibly mitochondrial	-	-	-
+85962.HP1408	-	-	possibly mitochondrial	none	-	-	-
+85962.HP0685	-	-	none	possibly plastid	-	-	-
+85962.HP0680	-	-	possibly mitochondrial	none	-	-	-
+85962.HP0688	-	-	none	none	-	YES	-
+85962.HP0046	-	-	possibly mitochondrial	not used	-	-	-
+85962.HP0661	-	-	none	none	-	YES	-
+85962.HP0592	-	-	none	possibly mitochondrial	-	-	-
+85962.HP0596	-	-	none	possibly ER	-	-	-
+85962.HP0598	-	-	possibly mitochondrial	none	-	-	-
+85962.HP0128	-	-	possibly mitochondrial	not used	-	-	-
+85962.HP0918	-	-	none	plastid	-	-	-
+85962.HP0867	-	-	none	possibly plastid	-	-	-
+85962.HP0865	-	-	possibly mitochondrial	none	-	-	-
+85962.HP0122	-	-	ER	not used	-	-	-
+85962.HP1508	-	-	possibly mitochondrial	none	-	-	-
+85962.HP0050	-	-	none	none	PF01555 5	-	-
+85962.HP1507	-	-	possibly mitochondrial	none	-	-	-
+85962.HP1501	-	-	possibly mitochondrial	none	-	-	-
+85962.HP0676	-	-	none	possibly mitochondrial	-	-	-
+85962.HP0273	-	-	none	none	-	YES	-
+85962.HP0554	-	-	none	none	-	YES	-
+85962.HP1509	-	-	possibly mitochondrial	none	-	-	-
+85962.HP1051	-	-	none	possibly plastid	-	-	-
+85962.HP0901	-	-	ER	not used	-	-	-
+85962.HP0900	-	-	none	none	-	YES	-
+85962.HP1339	-	-	none	possibly mitochondrial	-	-	-
+85962.HP1190	-	-	possibly mitochondrial	none	-	-	-
+85962.HP0116	-	-	none	possibly mitochondrial	-	-	-
+85962.HP0115	-	-	none	plastid	-	-	-
+85962.HP0111	-	-	none	possibly plastid	-	-	-
+85962.HP1421	-	-	possibly ER	none	-	-	-
+85962.HP1423	-	-	possibly mitochondrial	none	-	-	-
+85962.HP1518	-	-	none	possibly mitochondrial	-	-	-
+85962.HP0061	-	-	possibly ER	none	-	-	-
+85962.HP0066	-	-	none	none	-	YES	-
+85962.HP1510	-	-	possibly ER	none	-	-	-
+85962.HP0247	-	-	none	none	-	YES	-
+85962.HP0481	-	-	none	none	-	YES	-
+85962.HP0808	-	-	possibly mitochondrial	none	-	-	-
+85962.HP1296	-	-	none	possibly mitochondrial	-	-	-
+85962.HP1078	-	-	none	none	-	YES	-
+85962.HP0651	-	-	none	none	PF00852 7	-	-
+85962.HP0658	-	-	none	possibly plastid	-	-	-
+85962.HP0811	-	-	none	possibly mitochondrial	-	-	-
+85962.HP1285	-	-	possibly mitochondrial	none	-	-	-
+85962.HP1068	-	-	none	possibly ER	-	-	-
+85962.HP0719	-	-	possibly ER	none	-	-	-
+85962.HP0357	-	-	none	possibly plastid	-	-	-
+85962.HP0601	-	-	none	possibly plastid	-	-	-
+85962.HP0829	-	-	possibly ER	none	-	-	-
+85962.HP0821	-	-	none	possibly plastid	-	-	-
+85962.HP1541	-	-	possibly mitochondrial	none	-	-	-
+85962.HP1388	-	-	none	none	-	YES	-
+85962.HP1472	-	-	none	none	-	YES	-
+85962.HP1273	-	-	possibly ER	none	-	-	-
+85962.HP1278	-	-	possibly ER	none	-	-	-
+85962.HP1499	-	-	none	none	-	YES	-
+85962.HP1493	-	-	possibly ER	none	-	-	-
+85962.HP0017	-	-	none	none	-	YES	-
+85962.HP1011	-	-	none	none	-	YES	-
+85962.HP1015	-	-	none	possibly plastid	-	-	-
+85962.HP1018	-	-	ER	not used	-	-	-
+85962.HP0263	-	-	none	none	PF01555 5	-	-
+85962.HP0264	-	-	possibly ER	none	-	-	-
+85962.HP0837	-	-	none	possibly plastid	-	-	-
+85962.HP1397	-	-	none	none	PF03235 7	-	-
+85962.HP1396	-	-	none	none	PF07510 6	-	-
+85962.HP1265	-	-	none	none	-	YES	-
+85962.HP1268	-	-	none	none	-	YES	-
+85962.HP1485	-	-	none	possibly mitochondrial	-	-	-
+85962.HP0029	-	-	possibly mitochondrial	none	-	-	-
+85962.HP1003	-	-	none	none	-	YES	-
+85962.HP1006	-	-	none	none	-	YES	-
+85962.HP0285	-	-	none	none	-	YES	-
+85962.HP0731	-	-	none	none	-	YES	-
+85962.HP1133	-	-	none	none	-	YES	-
+85962.HP0516	-	-	none	none	-	YES	-
+85962.HP0350	-	-	none	possibly ER	-	-	-
+85962.HP0600	-	-	none	possibly ER	-	-	-
+85962.HP0232	-	-	none	none	-	YES	-
+85962.HP0230	-	-	possibly mitochondrial	none	-	-	-
+85962.HP0031	-	-	none	none	-	YES	-
+85962.HP0292	-	-	possibly mitochondrial	none	-	-	-
+85962.HP0723	-	-	none	possibly plastid	-	-	-
+85962.HP1105	-	-	none	none	PF01501 6	-	-
+85962.HP0502	-	-	possibly ER	not used	-	-	-
+85962.HP0345	-	-	none	none	-	YES	-
+85962.HP1514	-	-	none	none	-	YES	-
+85962.HP1021	-	-	none	none	-	YES	-
+85962.HP1115	-	-	none	none	-	YES	-
+85962.HP1114	-	-	none	none	-	YES	-
+85962.HP0574	-	-	none	possibly mitochondrial	-	-	-
+85962.HP0379	-	-	none	none	PF00852 7	-	-
+85962.HP0409	-	-	none	possibly plastid	-	-	-
+85962.HP0994	-	-	none	none	-	YES	-
+85962.HP0971	-	-	none	none	-	YES	-
+85962.HP1236	-	-	none	none	-	YES	-
+85962.HP1237	-	-	none	possibly plastid	-	-	-
+85962.HP1587	-	-	none	none	PF03981 9	-	-
+85962.HP1585	-	-	possibly mitochondrial	none	-	-	-
+85962.HP1588	-	-	none	none	PF03981 9	-	-
+85962.HP1589	-	-	none	none	PF03981 9	-	-
+85962.HP1347	-	-	none	possibly ER	-	-	-
+85962.HP1567	-	-	none	possibly plastid	-	-	-
+85962.HP0748	-	-	none	possibly plastid	-	-	-
+85962.HP0181	-	-	none	none	-	YES	-
+85962.HP0187	-	-	none	none	PF03235 7	-	-
+85962.HP0569	-	-	none	possibly plastid	-	-	-
+85962.HP0367	-	-	none	none	-	YES	-
+85962.HP0411	-	-	none	possibly mitochondrial	-	-	-
+85962.HP0983	-	-	none	none	-	-	-
+85962.HP0982	-	-	none	none	-	-	-
+85962.HP0984	-	-	not used	not used	-	-	-
+85962.HP0987	-	-	none	none	-	-	-
+85962.HP0986	-	-	none	none	-	-	-
+85962.HP0341	-	-	not used	not used	-	-	-
+85962.HP0969	-	-	none	none	-	-	-
+85962.HP0967	-	-	none	none	-	-	-
+85962.HP0966	-	-	none	none	-	-	-
+85962.HP0965	-	-	none	none	-	-	-
+85962.HP0964	-	-	none	none	-	-	-
+85962.HP0963	-	-	none	none	-	-	-
+85962.HP0962	-	-	none	none	-	-	-
+85962.HP0961	-	-	none	none	-	-	-
+85962.HP0960	-	-	none	none	-	-	-
+85962.HP0340	-	-	none	none	-	-	-
+85962.HP1229	-	-	none	none	-	-	-
+85962.HP1228	-	-	none	none	-	-	-
+85962.HP1223	-	-	none	none	-	-	-
+85962.HP1222	-	-	none	none	-	-	-
+85962.HP1221	-	-	none	none	-	-	-
+85962.HP1220	-	-	none	none	-	-	-
+85962.HP1226	-	-	none	none	-	-	-
+85962.HP1224	-	-	none	none	-	-	-
+85962.HP1590	-	-	not used	not used	-	-	-
+85962.HP1356	-	-	none	none	-	-	-
+85962.HP1355	-	-	none	none	-	-	-
+85962.HP1354	-	-	none	none	-	-	-
+85962.HP1351	-	-	none	none	-	-	-
+85962.HP0084	-	-	none	none	-	-	-
+85962.HP0086	-	-	none	none	-	-	-
+85962.HP1576	-	-	none	none	-	-	-
+85962.HP1575	-	-	none	none	-	-	-
+85962.HP1573	-	-	none	none	-	-	-
+85962.HP1570	-	-	none	none	-	-	-
+85962.HP0776	-	-	none	none	-	-	-
+85962.HP0777	-	-	none	none	-	-	-
+85962.HP0774	-	-	none	none	-	-	-
+85962.HP0775	-	-	none	none	-	-	-
+85962.HP0770	-	-	none	none	-	-	-
+85962.HP0778	-	-	none	none	-	-	-
+85962.HP0779	-	-	none	none	-	-	-
+85962.HP1171	-	-	none	none	-	-	-
+85962.HP0177	-	-	none	none	-	-	-
+85962.HP1176	-	-	not used	not used	-	-	-
+85962.HP0172	-	-	none	none	-	-	-
+85962.HP0173	-	-	none	none	-	-	-
+85962.HP1178	-	-	none	none	-	-	-
+85962.HP0178	-	-	none	none	-	-	-
+85962.HP0179	-	-	none	none	-	-	-
+85962.HP0798	-	-	none	none	-	-	-
+85962.HP0799	-	-	none	none	-	-	-
+85962.HP0794	-	-	none	none	-	-	-
+85962.HP0795	-	-	none	none	-	-	-
+85962.HP0790	-	-	none	none	-	-	-
+85962.HP0791	-	-	none	none	-	-	-
+85962.HP0792	-	-	none	none	-	-	-
+85962.HP0793	-	-	none	none	-	-	-
+85962.HP0310	-	-	none	none	-	-	-
+85962.HP0311	-	-	none	none	-	-	-
+85962.HP0314	-	-	not used	not used	-	-	-
+85962.HP0315	-	-	none	none	-	-	-
+85962.HP0316	-	-	none	none	-	-	-
+85962.HP0318	-	-	none	none	-	-	-
+85962.HP0319	-	-	none	none	-	-	-
+85962.HP0428	-	-	none	none	-	-	-
+85962.HP0429	-	-	-	-	-	-	<25_AA
+85962.HP0422	-	-	none	none	-	-	-
+85962.HP0423	-	-	none	none	-	-	-
+85962.HP0420	-	-	none	none	-	-	-
+85962.HP0421	-	-	none	none	-	-	-
+85962.HP0424	-	-	none	none	-	-	-
+85962.HP0610	-	-	none	none	-	-	-
+85962.HP0612	-	-	none	none	-	-	-
+85962.HP0615	-	-	none	none	-	-	-
+85962.HP0614	-	-	none	none	-	-	-
+85962.HP0228	-	-	none	none	-	-	-
+85962.HP0558	-	-	none	none	-	-	-
+85962.HP0559	-	-	none	none	-	-	-
+85962.HP0557	-	-	none	none	-	-	-
+85962.HP0220	-	-	none	none	-	-	-
+85962.HP0221	-	-	none	none	-	-	-
+85962.HP0222	-	-	none	none	-	-	-
+85962.HP0881	-	-	not used	not used	-	-	-
+85962.HP0883	-	-	none	none	-	-	-
+85962.HP0886	-	-	none	none	-	-	-
+85962.HP0958	-	-	none	none	-	-	-
+85962.HP0959	-	-	none	none	-	-	-
+85962.HP0952	-	-	none	none	-	-	-
+85962.HP0956	-	-	none	none	-	-	-
+85962.HP0954	-	-	none	none	-	-	-
+85962.HP0955	-	-	none	none	-	-	-
+85962.HP1217	-	-	none	none	-	-	-
+85962.HP1214	-	-	none	none	-	-	-
+85962.HP1215	-	-	none	none	-	-	-
+85962.HP1213	-	-	none	none	-	-	-
+85962.HP1210	-	-	none	none	-	-	-
+85962.HP1211	-	-	none	none	-	-	-
+85962.HP1218	-	-	none	none	-	-	-
+85962.HP1219	-	-	none	none	-	-	-
+85962.HP1363	-	-	none	none	-	-	-
+85962.HP1366	-	-	none	none	-	-	-
+85962.HP1365	-	-	none	none	-	-	-
+85962.HP0096	-	-	none	none	-	-	-
+85962.HP1542	-	-	none	none	-	-	-
+85962.HP1543	-	-	none	none	-	-	-
+85962.HP1540	-	-	none	none	-	-	-
+85962.HP1547	-	-	none	none	-	-	-
+85962.HP1544	-	-	none	none	-	-	-
+85962.HP1545	-	-	none	none	-	-	-
+85962.HP0763	-	-	none	none	-	-	-
+85962.HP0765	-	-	none	none	-	-	-
+85962.HP0766	-	-	none	none	-	-	-
+85962.HP0769	-	-	none	none	-	-	-
+85962.HP1147	-	-	none	none	-	-	-
+85962.HP1142	-	-	none	none	-	-	-
+85962.HP1143	-	-	none	none	-	-	-
+85962.HP1140	-	-	none	none	-	-	-
+85962.HP0167	-	-	none	none	-	-	-
+85962.HP0166	-	-	none	none	-	-	-
+85962.HP0161	-	-	not used	not used	-	-	-
+85962.HP0169	-	-	none	none	-	-	-
+85962.HP0168	-	-	none	none	-	-	-
+85962.HP0789	-	-	none	not used	-	-	-
+85962.HP0303	-	-	none	none	-	-	-
+85962.HP0300	-	-	none	none	-	-	-
+85962.HP0306	-	-	none	none	-	-	-
+85962.HP0435	-	-	none	none	-	-	-
+85962.HP0434	-	-	none	none	-	-	-
+85962.HP0430	-	-	none	not used	-	-	-
+85962.HP0433	-	-	none	none	-	-	-
+85962.HP0432	-	-	none	none	-	-	-
+85962.HP0439	-	-	none	none	-	-	-
+85962.HP0549	-	-	none	none	-	-	-
+85962.HP0239	-	-	none	none	-	-	-
+85962.HP0237	-	-	none	none	-	-	-
+85962.HP0233	-	-	none	none	-	-	-
+85962.HP0544	-	-	none	none	-	-	-
+85962.HP0899	-	-	none	none	-	-	-
+85962.HP0898	-	-	none	none	-	-	-
+85962.HP0893	-	-	none	none	-	-	-
+85962.HP0892	-	-	none	none	-	-	-
+85962.HP0891	-	-	none	none	-	-	-
+85962.HP0890	-	-	none	none	-	-	-
+85962.HP0944	-	-	none	none	-	-	-
+85962.HP0941	-	-	-	-	-	-	protein_alphabet_unknown
+85962.HP0949	-	-	none	none	-	-	-
+85962.HP1129	-	-	none	none	-	-	-
+85962.HP1200	-	-	none	none	-	-	-
+85962.HP1203	-	-	none	none	-	-	-
+85962.HP1202	-	-	none	none	-	-	-
+85962.HP1205	-	-	none	none	-	-	-
+85962.HP1204	-	-	none	not used	-	-	-
+85962.HP1209	-	-	none	none	-	-	-
+85962.HP1208	-	-	none	none	-	-	-
+85962.HP1122	-	-	none	none	-	-	-
+85962.HP0708	-	-	none	none	-	-	-
+85962.HP1379	-	-	none	none	-	-	-
+85962.HP1375	-	-	none	none	-	-	-
+85962.HP1374	-	-	none	none	-	-	-
+85962.HP1377	-	-	none	none	-	-	-
+85962.HP1376	-	-	none	none	-	-	-
+85962.HP1371	-	-	none	none	-	-	-
+85962.HP1554	-	-	none	none	-	-	-
+85962.HP1557	-	-	none	none	-	-	-
+85962.HP1556	-	-	none	none	-	-	-
+85962.HP1553	-	-	none	none	-	-	-
+85962.HP1552	-	-	none	none	-	-	-
+85962.HP1559	-	-	none	none	-	-	-
+85962.HP1558	-	-	none	none	-	-	-
+85962.HP1159	-	-	none	none	-	-	-
+85962.HP1158	-	-	none	none	-	-	-
+85962.HP1150	-	-	none	none	-	-	-
+85962.HP1153	-	-	none	none	-	-	-
+85962.HP1152	-	-	none	none	-	-	-
+85962.HP1155	-	-	none	none	-	-	-
+85962.HP1154	-	-	none	none	-	-	-
+85962.HP0152	-	-	none	none	-	-	-
+85962.HP0153	-	-	none	none	-	-	-
+85962.HP0151	-	-	none	none	-	-	-
+85962.HP0154	-	-	none	none	-	-	-
+85962.HP0155	-	-	none	none	-	-	-
+85962.HP1417m	-	-	none	none	-	-	-
+85962.HP0339	-	-	none	none	-	-	-
+85962.HP0336	-	-	none	none	-	-	-
+85962.HP0337	-	-	none	none	-	-	-
+85962.HP0334	-	-	none	none	-	-	-
+85962.HP0335	-	-	none	none	-	-	-
+85962.HP0332	-	-	none	none	-	-	-
+85962.HP0333	-	-	none	none	-	-	-
+85962.HP0330	-	-	none	none	-	-	-
+85962.HP0331	-	-	none	none	-	-	-
+85962.HP0440	-	-	none	none	-	-	-
+85962.HP0442	-	-	none	none	-	-	-
+85962.HP0444	-	-	none	none	-	-	-
+85962.HP0445	-	-	none	none	-	-	-
+85962.HP0446	-	-	none	none	-	-	-
+85962.HP0447	-	-	none	none	-	-	-
+85962.HP0448	-	-	none	none	-	-	-
+85962.HP0449	-	-	none	none	-	-	-
+85962.HP0202	-	-	none	none	-	-	-
+85962.HP0200	-	-	none	not used	-	-	-
+85962.HP0201	-	-	none	none	-	-	-
+85962.HP0205	-	-	none	none	-	-	-
+85962.HP1458	-	-	none	none	-	-	-
+85962.HP0100	-	-	none	none	-	-	-
+85962.HP1451	-	-	none	none	-	-	-
+85962.HP1160	-	-	none	none	-	-	-
+85962.HP0068	-	-	none	none	-	-	-
+85962.HP0932	-	-	none	none	-	-	-
+85962.HP0935	-	-	none	none	-	-	-
+85962.HP0848	-	-	none	none	-	-	-
+85962.HP1203a	-	-	none	not used	-	-	-
+85962.HP0844	-	-	none	none	-	-	-
+85962.HP0846	-	-	none	none	-	-	-
+85962.HP0840	-	-	none	none	-	-	-
+85962.HP0842	-	-	none	none	-	-	-
+85962.HP0843	-	-	none	none	-	-	-
+85962.HP0088	-	-	none	none	-	-	-
+85962.HP1099	-	-	none	none	-	-	-
+85962.HP1091	-	-	none	none	-	-	-
+85962.HP1092	-	-	none	none	-	-	-
+85962.HP1093	-	-	not used	not used	-	-	-
+85962.HP1097	-	-	not used	not used	-	-	-
+85962.HP1308	-	-	none	none	-	-	-
+85962.HP1309	-	-	none	none	-	-	-
+85962.HP1302	-	-	none	none	-	-	-
+85962.HP1304	-	-	none	none	-	-	-
+85962.HP1305	-	-	none	none	-	-	-
+85962.HP1307	-	-	none	none	-	-	-
+85962.HP1520	-	-	none	none	-	-	-
+85962.HP1521	-	-	none	none	-	-	-
+85962.HP1523	-	-	none	none	-	-	-
+85962.HP1528	-	-	not used	not used	-	-	-
+85962.HP0144	-	-	none	none	-	-	-
+85962.HP0142	-	-	none	none	-	-	-
+85962.HP1414	-	-	none	none	-	-	-
+85962.HP1415	-	-	none	none	-	-	-
+85962.HP1410	-	-	-	-	-	-	protein_alphabet_unknown
+85962.HP1411	-	-	none	none	-	-	-
+85962.HP1412	-	-	none	none	-	-	-
+85962.HP1413	-	-	none	none	-	-	-
+85962.HP1418	-	-	none	none	-	-	-
+85962.HP0329	-	-	none	none	-	-	-
+85962.HP0328	-	-	none	none	-	-	-
+85962.HP0321	-	-	none	none	-	-	-
+85962.HP0322	-	-	none	none	-	-	-
+85962.HP0327	-	-	none	none	-	-	-
+85962.HP0452	-	-	none	none	-	-	-
+85962.HP0451	-	-	none	none	-	-	-
+85962.HP0450	-	-	none	not used	-	-	-
+85962.HP0457	-	-	none	none	-	-	-
+85962.HP0454	-	-	none	none	-	-	-
+85962.HP0459	-	-	none	none	-	-	-
+85962.HP0458	-	-	none	none	-	-	-
+85962.HP0174	-	-	none	none	-	-	-
+85962.HP0214	-	-	none	none	-	-	-
+85962.HP0216	-	-	none	none	-	-	-
+85962.HP0210	-	-	none	none	-	-	-
+85962.HP0213	-	-	none	none	-	-	-
+85962.HP0212	-	-	none	none	-	-	-
+85962.HP0219	-	-	none	none	-	-	-
+85962.HP0218	-	-	none	none	-	-	-
+85962.HP0171	-	-	none	none	-	-	-
+85962.HP1175	-	-	none	none	-	-	-
+85962.HP0920	-	-	none	none	-	-	-
+85962.HP0927	-	-	none	none	-	-	-
+85962.HP0926	-	-	none	none	-	-	-
+85962.HP0925	-	-	none	none	-	-	-
+85962.HP0924	-	-	none	none	-	-	-
+85962.HP0929	-	-	none	none	-	-	-
+85962.HP0928	-	-	none	none	-	-	-
+85962.HP0859	-	-	none	none	-	-	-
+85962.HP0857	-	-	none	none	-	-	-
+85962.HP0854	-	-	none	none	-	-	-
+85962.HP0853	-	-	none	none	-	-	-
+85962.HP0851	-	-	none	none	-	-	-
+85962.HP0850	-	-	none	none	-	-	-
+85962.HP1089	-	-	none	none	-	-	-
+85962.HP1086	-	-	none	none	-	-	-
+85962.HP1084	-	-	none	none	-	-	-
+85962.HP1319	-	-	none	none	-	-	-
+85962.HP1318	-	-	none	none	-	-	-
+85962.HP1311	-	-	none	none	-	-	-
+85962.HP1310	-	-	none	none	-	-	-
+85962.HP1317	-	-	none	none	-	-	-
+85962.HP1315	-	-	none	none	-	-	-
+85962.HP1533	-	-	none	none	-	-	-
+85962.HP1532	-	-	none	none	-	-	-
+85962.HP1531	-	-	none	none	-	-	-
+85962.HP1530	-	-	none	none	-	-	-
+85962.HP1537	-	-	none	none	-	-	-
+85962.HP1536	-	-	-	-	-	-	<25_AA
+85962.HP1539	-	-	none	none	-	-	-
+85962.HP0138	-	-	none	none	-	-	-
+85962.HP0131	-	-	not used	not used	-	-	-
+85962.HP0132	-	-	none	none	-	-	-
+85962.HP0133	-	-	none	none	-	-	-
+85962.HP0134	-	-	none	none	-	-	-
+85962.HP0136	-	-	none	none	-	-	-
+85962.HP1406	-	-	none	none	-	-	-
+85962.HP1405	-	-	not used	not used	-	-	-
+85962.HP1404	-	-	none	none	-	-	-
+85962.HP1403	-	-	none	none	-	-	-
+85962.HP1402	-	-	none	none	-	-	-
+85962.HP1401	-	-	none	none	-	-	-
+85962.HP0687	-	-	none	none	-	-	-
+85962.HP0682	-	-	none	none	-	-	-
+85962.HP0681	-	-	none	none	-	-	-
+85962.HP0689	-	-	none	none	-	-	-
+85962.HP0044	-	-	none	none	-	-	-
+85962.HP0045	-	-	none	none	-	-	-
+85962.HP0047	-	-	none	none	-	-	-
+85962.HP0042	-	-	none	none	-	-	-
+85962.HP0048	-	-	none	none	-	-	-
+85962.HP0049	-	-	none	none	-	-	-
+85962.HP0668	-	-	none	none	-	-	-
+85962.HP0664	-	-	none	none	-	-	-
+85962.HP0665	-	-	none	none	-	-	-
+85962.HP0666	-	-	none	none	-	-	-
+85962.HP0667	-	-	none	none	-	-	-
+85962.HP0662	-	-	none	none	-	-	-
+85962.HP0663	-	-	none	none	-	-	-
+85962.HP0261	-	-	none	none	-	-	-
+85962.HP0590	-	-	none	none	-	-	-
+85962.HP0591	-	-	none	none	-	-	-
+85962.HP0266	-	-	none	none	-	-	-
+85962.HP0268	-	-	none	none	-	-	-
+85962.HP0269	-	-	none	none	-	-	-
+85962.HP0599	-	-	none	none	-	-	-
+85962.HP0468	-	-	none	none	-	-	-
+85962.HP0469	-	-	none	none	-	-	-
+85962.HP0464	-	-	none	none	-	-	-
+85962.HP0465	-	-	none	none	-	-	-
+85962.HP0462	-	-	none	none	-	-	-
+85962.HP0463	-	-	none	none	-	-	-
+85962.HP0460	-	-	none	none	-	-	-
+85962.HP0461	-	-	not used	not used	-	-	-
+85962.HP0916	-	-	none	none	-	-	-
+85962.HP0917	-	-	-	-	-	-	<25_AA
+85962.HP0915	-	-	none	none	-	-	-
+85962.HP0913	-	-	none	none	-	-	-
+85962.HP0910	-	-	none	none	-	-	-
+85962.HP0911	-	-	none	none	-	-	-
+85962.HP0555	-	-	-	-	-	-	protein_alphabet_unknown
+85962.HP0552	-	-	none	none	-	-	-
+85962.HP0553	-	-	none	none	-	-	-
+85962.HP0550	-	-	none	none	-	-	-
+85962.HP0551	-	-	none	none	-	-	-
+85962.HP0120	-	-	none	none	-	-	-
+85962.HP0868	-	-	none	none	-	-	-
+85962.HP0869	-	-	none	none	-	-	-
+85962.HP0862	-	-	none	none	-	-	-
+85962.HP0860	-	-	none	none	-	-	-
+85962.HP0866	-	-	none	none	-	-	-
+85962.HP0864	-	-	none	none	-	-	-
+85962.HP1500	-	-	-	-	-	-	<25_AA
+85962.HP1324	-	-	none	none	-	-	-
+85962.HP1325	-	-	none	none	-	-	-
+85962.HP1323	-	-	none	none	-	-	-
+85962.HP1320	-	-	none	none	-	-	-
+85962.HP1321	-	-	none	none	-	-	-
+85962.HP1329	-	-	none	none	-	-	-
+85962.HP1182	-	-	none	none	-	-	-
+85962.HP1187	-	-	none	none	-	-	-
+85962.HP1184	-	-	none	none	-	-	-
+85962.HP0123	-	-	none	none	-	-	-
+85962.HP1188	-	-	none	none	-	-	-
+85962.HP1189	-	-	none	none	-	-	-
+85962.HP0124	-	-	none	none	-	-	-
+85962.HP1432	-	-	none	none	-	-	-
+85962.HP1433	-	-	none	none	-	-	-
+85962.HP1430	-	-	none	none	-	-	-
+85962.HP1431	-	-	none	none	-	-	-
+85962.HP1437	-	-	none	none	-	-	-
+85962.HP1434	-	-	none	none	-	-	-
+85962.HP1439	-	-	none	none	-	-	-
+85962.HP0691	-	-	none	none	-	-	-
+85962.HP0690	-	-	none	none	-	-	-
+85962.HP0692	-	-	none	none	-	-	-
+85962.HP0695	-	-	none	none	-	-	-
+85962.HP0697	-	-	none	none	-	-	-
+85962.HP0696	-	-	none	none	-	-	-
+85962.HP0698	-	-	not used	not used	-	-	-
+85962.HP0056	-	-	none	none	-	-	-
+85962.HP0054	-	-	none	none	-	-	-
+85962.HP0053	-	-	none	none	-	-	-
+85962.HP1504	-	-	none	none	-	-	-
+85962.HP1505	-	-	none	none	-	-	-
+85962.HP1503	-	-	none	none	-	-	-
+85962.HP0059	-	-	none	none	-	-	-
+85962.HP0679	-	-	none	none	-	-	-
+85962.HP0678	-	-	not used	not used	-	-	-
+85962.HP0675	-	-	none	none	-	-	-
+85962.HP0674	-	-	none	none	-	-	-
+85962.HP0673	-	-	none	none	-	-	-
+85962.HP0672	-	-	none	none	-	-	-
+85962.HP0670	-	-	none	none	-	-	-
+85962.HP0589	-	-	none	none	-	-	-
+85962.HP0588	-	-	none	none	-	-	-
+85962.HP0585	-	-	none	none	-	-	-
+85962.HP0584	-	-	none	none	-	-	-
+85962.HP0587	-	-	none	none	-	-	-
+85962.HP0581	-	-	none	none	-	-	-
+85962.HP0582	-	-	none	none	-	-	-
+85962.HP0272	-	-	none	none	-	-	-
+85962.HP0277	-	-	none	none	-	-	-
+85962.HP0276	-	-	none	none	-	-	-
+85962.HP0274	-	-	none	none	-	-	-
+85962.HP0478	-	-	none	none	-	-	-
+85962.HP0470	-	-	none	none	-	-	-
+85962.HP1058	-	-	none	none	-	-	-
+85962.HP1059	-	-	none	none	-	-	-
+85962.HP0051	-	-	none	none	-	-	-
+85962.HP1146	-	-	none	none	-	-	-
+85962.HP0849	-	-	none	none	-	-	-
+85962.HP1050	-	-	none	none	-	-	-
+85962.HP1052	-	-	none	none	-	-	-
+85962.HP1053	-	-	none	none	-	-	-
+85962.HP0847	-	-	not used	not used	-	-	-
+85962.HP0909	-	-	none	none	-	-	-
+85962.HP0908	-	-	none	none	-	-	-
+85962.HP0902	-	-	none	none	-	-	-
+85962.HP0905	-	-	none	none	-	-	-
+85962.HP0907	-	-	none	none	-	-	-
+85962.HP0906	-	-	none	none	-	-	-
+85962.HP0875	-	-	none	none	-	-	-
+85962.HP0877	-	-	none	none	-	-	-
+85962.HP0872	-	-	none	none	-	-	-
+85962.HP0879	-	-	none	none	-	-	-
+85962.HP0878	-	-	none	not used	-	-	-
+85962.HP1331	-	-	none	none	-	-	-
+85962.HP1332	-	-	none	none	-	-	-
+85962.HP1335	-	-	none	none	-	-	-
+85962.HP1334	-	-	none	none	-	-	-
+85962.HP1337	-	-	none	none	-	-	-
+85962.HP1336	-	-	none	none	-	-	-
+85962.HP1338	-	-	none	none	-	-	-
+85962.HP1038	-	-	none	none	-	-	-
+85962.HP1199	-	-	none	none	-	-	-
+85962.HP1198	-	-	none	none	-	-	-
+85962.HP1194	-	-	not used	not used	-	-	-
+85962.HP1197	-	-	none	none	-	-	-
+85962.HP1196	-	-	none	none	-	-	-
+85962.HP1193	-	-	none	none	-	-	-
+85962.HP0117	-	-	none	none	-	-	-
+85962.HP0114	-	-	none	none	-	-	-
+85962.HP0113	-	-	none	none	-	-	-
+85962.HP0110	-	-	none	none	-	-	-
+85962.HP1425	-	-	none	none	-	-	-
+85962.HP1427	-	-	none	none	-	-	-
+85962.HP1426	-	-	none	none	-	-	-
+85962.HP1420	-	-	none	none	-	-	-
+85962.HP1422	-	-	none	none	-	-	-
+85962.HP0062	-	-	none	none	-	-	-
+85962.HP0060	-	-	none	none	-	-	-
+85962.HP0067	-	-	none	none	-	-	-
+85962.HP0064	-	-	none	none	-	-	-
+85962.HP0065	-	-	none	none	-	-	-
+85962.HP1513	-	-	none	none	-	-	-
+85962.HP0069	-	-	none	none	-	-	-
+85962.HP1515	-	-	not used	not used	-	-	-
+85962.HP1042	-	-	none	none	-	-	-
+85962.HP1517	-	-	none	none	-	-	-
+85962.HP1516	-	-	none	none	-	-	-
+85962.HP0648	-	-	none	none	-	-	-
+85962.HP0649	-	-	none	none	-	-	-
+85962.HP0642	-	-	none	none	-	-	-
+85962.HP0640	-	-	none	none	-	-	-
+85962.HP0641	-	-	none	none	-	-	-
+85962.HP0248	-	-	none	none	-	-	-
+85962.HP0245	-	-	none	none	-	-	-
+85962.HP0242	-	-	none	none	-	-	-
+85962.HP0243	-	-	none	none	-	-	-
+85962.HP0240	-	-	none	none	-	-	-
+85962.HP1266	-	-	none	none	-	-	-
+85962.HP0484	-	-	none	none	-	-	-
+85962.HP0480	-	-	none	none	-	-	-
+85962.HP0482	-	-	none	none	-	-	-
+85962.HP0488	-	-	none	none	-	-	-
+85962.HP0489	-	-	none	none	-	-	-
+85962.HP0800	-	-	none	none	-	-	-
+85962.HP0801	-	-	none	none	-	-	-
+85962.HP0802	-	-	none	none	-	-	-
+85962.HP0804	-	-	none	none	-	-	-
+85962.HP0805	-	-	none	none	-	-	-
+85962.HP0806	-	-	none	none	-	-	-
+85962.HP0809	-	-	none	none	-	-	-
+85962.HP1459	-	-	none	none	-	-	-
+85962.HP0102	-	-	none	none	-	-	-
+85962.HP0105	-	-	none	none	-	-	-
+85962.HP0106	-	-	none	none	-	-	-
+85962.HP0109	-	-	none	none	-	-	-
+85962.HP1452	-	-	none	none	-	-	-
+85962.HP1298	-	-	none	none	-	-	-
+85962.HP1299	-	-	none	none	-	-	-
+85962.HP1297	-	-	not used	not used	-	-	-
+85962.HP1292	-	-	none	none	-	-	-
+85962.HP1293	-	-	none	none	-	-	-
+85962.HP1291	-	-	none	none	-	-	-
+85962.HP0075	-	-	none	none	-	-	-
+85962.HP0077	-	-	none	none	-	-	-
+85962.HP0076	-	-	none	none	-	-	-
+85962.HP0070	-	-	none	none	-	-	-
+85962.HP0073	-	-	none	none	-	-	-
+85962.HP0072	-	-	none	none	-	-	-
+85962.HP1072	-	-	none	none	-	-	-
+85962.HP1073	-	-	none	none	-	-	-
+85962.HP1070	-	-	none	none	-	-	-
+85962.HP1076	-	-	none	none	-	-	-
+85962.HP1074	-	-	none	none	-	-	-
+85962.HP0654	-	-	none	none	-	-	-
+85962.HP0650	-	-	none	none	-	-	-
+85962.HP0653	-	-	none	none	-	-	-
+85962.HP0652	-	-	none	none	-	-	-
+85962.HP1170	-	-	none	none	-	-	-
+85962.HP0259	-	-	none	none	-	-	-
+85962.HP0250	-	-	none	none	-	-	-
+85962.HP0253	-	-	not used	not used	-	-	-
+85962.HP0255	-	-	none	none	-	-	-
+85962.HP0254	-	-	none	none	-	-	-
+85962.HP0256	-	-	none	none	-	-	-
+85962.HP0199	-	-	none	none	-	-	-
+85962.HP0496	-	-	none	none	-	-	-
+85962.HP0490	-	-	none	none	-	-	-
+85962.HP0193	-	-	none	none	-	-	-
+85962.HP0734	-	-	none	none	-	-	-
+85962.HP0735	-	-	none	none	-	-	-
+85962.HP0738	-	-	none	none	-	-	-
+85962.HP0813	-	-	none	none	-	-	-
+85962.HP0812	-	-	none	none	-	-	-
+85962.HP0810	-	-	none	none	-	-	-
+85962.HP0816	-	-	none	none	-	-	-
+85962.HP0814	-	-	none	none	-	-	-
+85962.HP0819	-	-	none	none	-	-	-
+85962.HP0818	-	-	none	none	-	-	-
+85962.HP1449	-	-	none	none	-	-	-
+85962.HP1448	-	-	none	none	-	-	-
+85962.HP1443	-	-	none	none	-	-	-
+85962.HP1442	-	-	none	none	-	-	-
+85962.HP1441	-	-	none	none	-	-	-
+85962.HP1447	-	-	none	not used	-	-	-
+85962.HP1444	-	-	none	none	-	-	-
+85962.HP1289	-	-	none	none	-	-	-
+85962.HP1288	-	-	none	none	-	-	-
+85962.HP1281	-	-	none	none	-	-	-
+85962.HP1280	-	-	none	none	-	-	-
+85962.HP1282	-	-	none	none	-	-	-
+85962.HP1284	-	-	none	none	-	-	-
+85962.HP1287	-	-	none	none	-	-	-
+85962.HP0399	-	-	none	none	-	-	-
+85962.HP0390	-	-	none	none	-	-	-
+85962.HP0391	-	-	none	none	-	-	-
+85962.HP0392	-	-	none	none	-	-	-
+85962.HP0393	-	-	none	none	-	-	-
+85962.HP0394	-	-	none	none	-	-	-
+85962.HP0395	-	-	none	none	-	-	-
+85962.HP0396	-	-	none	none	-	-	-
+85962.HP0397	-	-	none	none	-	-	-
+85962.HP0008	-	-	not used	not used	-	-	-
+85962.HP0009	-	-	none	none	-	-	-
+85962.HP0001	-	-	none	none	-	-	-
+85962.HP0002	-	-	none	none	-	-	-
+85962.HP0004	-	-	none	none	-	-	-
+85962.HP0005	-	-	none	none	-	-	-
+85962.HP0006	-	-	none	none	-	-	-
+85962.HP1065	-	-	none	none	-	-	-
+85962.HP1067	-	-	none	none	-	-	-
+85962.HP1061	-	-	none	none	-	-	-
+85962.HP1063	-	-	none	none	-	-	-
+85962.HP1062	-	-	none	none	-	-	-
+85962.HP0620	-	-	none	none	-	-	-
+85962.HP0621	-	-	none	none	-	-	-
+85962.HP0623	-	-	none	none	-	-	-
+85962.HP0624	-	-	none	none	-	-	-
+85962.HP0625	-	-	none	none	-	-	-
+85962.HP0626	-	-	none	none	-	-	-
+85962.HP0628	-	-	none	none	-	-	-
+85962.HP0715	-	-	none	none	-	-	-
+85962.HP0716	-	-	none	none	-	-	-
+85962.HP0712	-	-	none	none	-	-	-
+85962.HP0713	-	-	none	none	-	-	-
+85962.HP0534	-	-	none	none	-	-	-
+85962.HP0535	-	-	none	none	-	-	-
+85962.HP0530	-	-	none	none	-	-	-
+85962.HP0531	-	-	none	none	-	-	-
+85962.HP0354	-	-	none	none	-	-	-
+85962.HP0356	-	-	none	none	-	-	-
+85962.HP0602	-	-	none	none	-	-	-
+85962.HP0603	-	-	none	none	-	-	-
+85962.HP0352	-	-	none	none	-	-	-
+85962.HP0091	-	-	none	none	-	-	-
+85962.HP0828	-	-	none	none	-	-	-
+85962.HP0827	-	-	none	none	-	-	-
+85962.HP0824	-	-	none	none	-	-	-
+85962.HP0825	-	-	none	none	-	-	-
+85962.HP0823	-	-	none	none	-	-	-
+85962.HP0820	-	-	none	none	-	-	-
+85962.HP1380	-	-	none	none	-	-	-
+85962.HP1382	-	-	none	none	-	-	-
+85962.HP1384	-	-	none	none	-	-	-
+85962.HP1385	-	-	none	none	-	-	-
+85962.HP1386	-	-	none	none	-	-	-
+85962.HP1389	-	-	none	none	-	-	-
+85962.HP1476	-	-	none	none	-	-	-
+85962.HP1474	-	-	none	none	-	-	-
+85962.HP1475	-	-	none	none	-	-	-
+85962.HP1470	-	-	none	none	-	-	-
+85962.HP1471	-	-	none	none	-	-	-
+85962.HP1478	-	-	none	none	-	-	-
+85962.HP1479	-	-	none	none	-	-	-
+85962.HP1275	-	-	none	none	-	-	-
+85962.HP1276	-	-	none	none	-	-	-
+85962.HP1277	-	-	none	none	-	-	-
+85962.HP1279	-	-	none	none	-	-	-
+85962.HP1494	-	-	none	none	-	-	-
+85962.HP1495	-	-	none	none	-	-	-
+85962.HP1496	-	-	none	none	-	-	-
+85962.HP1497	-	-	none	none	-	-	-
+85962.HP1490	-	-	-	-	-	-	protein_alphabet_unknown
+85962.HP1491	-	-	none	none	-	-	-
+85962.HP1492	-	-	none	none	-	-	-
+85962.HP0389	-	-	none	none	-	-	-
+85962.HP0388	-	-	none	none	-	-	-
+85962.HP0381	-	-	none	none	-	-	-
+85962.HP0380	-	-	none	none	-	-	-
+85962.HP0386	-	-	none	none	-	-	-
+85962.HP0385	-	-	none	none	-	-	-
+85962.HP0384	-	-	-	-	-	-	protein_alphabet_unknown
+85962.HP0019	-	-	none	none	-	-	-
+85962.HP0767	-	-	-	-	-	-	<25_AA
+85962.HP0012	-	-	none	none	-	-	-
+85962.HP0011	-	-	none	none	-	-	-
+85962.HP0016	-	-	none	none	-	-	-
+85962.HP0014	-	-	none	none	-	-	-
+85962.HP1013	-	-	none	none	-	-	-
+85962.HP1014	-	-	none	none	-	-	-
+85962.HP1019	-	-	none	none	-	-	-
+85962.HP0633	-	-	none	none	-	-	-
+85962.HP0632	-	-	none	none	-	-	-
+85962.HP0631	-	-	none	none	-	-	-
+85962.HP0637	-	-	none	none	-	-	-
+85962.HP0635	-	-	none	none	-	-	-
+85962.HP0634	-	-	none	none	-	-	-
+85962.HP0639	-	-	none	none	-	-	-
+85962.HP0707	-	-	none	none	-	-	-
+85962.HP0705	-	-	none	none	-	-	-
+85962.HP0704	-	-	not used	not used	-	-	-
+85962.HP0703	-	-	none	none	-	-	-
+85962.HP0701	-	-	none	none	-	-	-
+85962.HP0700	-	-	none	none	-	-	-
+85962.HP1127	-	-	none	none	-	-	-
+85962.HP1120	-	-	none	none	-	-	-
+85962.HP1121	-	-	none	none	-	-	-
+85962.HP1123	-	-	none	none	-	-	-
+85962.HP0527	-	-	-	-	-	-	protein_alphabet_unknown
+85962.HP0526	-	-	none	none	-	-	-
+85962.HP0525	-	-	none	none	-	-	-
+85962.HP0524	-	-	none	none	-	-	-
+85962.HP0520	-	-	none	none	-	-	-
+85962.HP0977	-	-	none	none	-	-	-
+85962.HP0267	-	-	none	none	-	-	-
+85962.HP0830	-	-	none	none	-	-	-
+85962.HP0832	-	-	none	none	-	-	-
+85962.HP0835	-	-	none	none	-	-	-
+85962.HP0834	-	-	none	none	-	-	-
+85962.HP1119	-	-	none	none	-	-	-
+85962.HP1393	-	-	none	none	-	-	-
+85962.HP1391	-	-	none	none	-	-	-
+85962.HP1390	-	-	none	none	-	-	-
+85962.HP1394	-	-	none	none	-	-	-
+85962.HP1399	-	-	none	none	-	-	-
+85962.HP1398	-	-	none	none	-	-	-
+85962.HP1460	-	-	none	none	-	-	-
+85962.HP1462	-	-	none	none	-	-	-
+85962.HP1465	-	-	none	none	-	-	-
+85962.HP1466	-	-	none	none	-	-	-
+85962.HP1468	-	-	none	none	-	-	-
+85962.HP0768	-	-	none	none	-	-	-
+85962.HP1264	-	-	none	none	-	-	-
+85962.HP1263	-	-	none	none	-	-	-
+85962.HP1262	-	-	none	none	-	-	-
+85962.HP1261	-	-	none	none	-	-	-
+85962.HP1483	-	-	none	none	-	-	-
+85962.HP1482	-	-	none	none	-	-	-
+85962.HP1481	-	-	none	none	-	-	-
+85962.HP1480	-	-	none	none	-	-	-
+85962.HP0026	-	-	none	none	-	-	-
+85962.HP0027	-	-	none	none	-	-	-
+85962.HP0024	-	-	not used	not used	-	-	-
+85962.HP0023	-	-	not used	not used	-	-	-
+85962.HP0020	-	-	none	none	-	-	-
+85962.HP1001	-	-	none	none	-	-	-
+85962.HP1000	-	-	none	none	-	-	-
+85962.HP1005	-	-	none	none	-	-	-
+85962.HP1004	-	-	none	none	-	-	-
+85962.HP1008	-	-	none	none	-	-	-
+85962.HP0283	-	-	none	none	-	-	-
+85962.HP0280	-	-	none	none	-	-	-
+85962.HP0281	-	-	none	none	-	-	-
+85962.HP0286	-	-	none	none	-	-	-
+85962.HP0287	-	-	none	none	-	-	-
+85962.HP0289	-	-	none	none	-	-	-
+85962.HP0732	-	-	none	none	-	-	-
+85962.HP0733	-	-	none	none	-	-	-
+85962.HP0736	-	-	none	none	-	-	-
+85962.HP1139	-	-	none	none	-	-	-
+85962.HP1138	-	-	none	none	-	-	-
+85962.HP1135	-	-	none	none	-	-	-
+85962.HP0739	-	-	none	none	-	-	-
+85962.HP1132	-	-	none	none	-	-	-
+85962.HP1131	-	-	none	none	-	-	-
+85962.HP1130	-	-	none	none	-	-	-
+85962.HP0512	-	-	none	none	-	-	-
+85962.HP0510	-	-	none	none	-	-	-
+85962.HP0511	-	-	not used	not used	-	-	-
+85962.HP0514	-	-	none	none	-	-	-
+85962.HP0515	-	-	none	none	-	-	-
+85962.HP0359	-	-	-	-	-	-	<25_AA
+85962.HP0608	-	-	none	none	-	-	-
+85962.HP0609	-	-	none	none	-	-	-
+85962.HP0604	-	-	none	none	-	-	-
+85962.HP0353	-	-	none	none	-	-	-
+85962.HP0541	-	-	-	-	-	-	protein_alphabet_unknown
+85962.HP1429	-	-	none	none	-	-	-
+85962.HP0543	-	-	-	-	-	-	protein_alphabet_unknown
+85962.HP1428	-	-	none	none	-	-	-
+85962.HP0118	-	-	-	-	-	-	protein_alphabet_unknown
+85962.HP1256	-	-	none	none	-	-	-
+85962.HP1257	-	-	none	none	-	-	-
+85962.HP1254	-	-	none	none	-	-	-
+85962.HP1258	-	-	none	none	-	-	-
+85962.HP1259	-	-	none	none	-	-	-
+85962.HP0030	-	-	none	none	-	-	-
+85962.HP0033	-	-	none	none	-	-	-
+85962.HP0032	-	-	none	none	-	-	-
+85962.HP0035	-	-	none	none	-	-	-
+85962.HP0034	-	-	none	none	-	-	-
+85962.HP0038	-	-	none	none	-	-	-
+85962.HP1034	-	-	none	none	-	-	-
+85962.HP1035	-	-	none	none	-	-	-
+85962.HP1032	-	-	none	none	-	-	-
+85962.HP1030	-	-	none	none	-	-	-
+85962.HP1031	-	-	none	none	-	-	-
+85962.HP0295	-	-	none	none	-	-	-
+85962.HP0294	-	-	none	none	-	-	-
+85962.HP0297	-	-	none	none	-	-	-
+85962.HP0296	-	-	none	none	-	-	-
+85962.HP0291	-	-	none	none	-	-	-
+85962.HP0290	-	-	none	none	-	-	-
+85962.HP0293	-	-	none	none	-	-	-
+85962.HP0729	-	-	none	none	-	-	-
+85962.HP0728	-	-	none	none	-	-	-
+85962.HP0725	-	-	none	none	-	-	-
+85962.HP0720	-	-	none	not used	-	-	-
+85962.HP0722	-	-	none	none	-	-	-
+85962.HP1109	-	-	none	none	-	-	-
+85962.HP1102	-	-	none	none	-	-	-
+85962.HP1103	-	-	none	none	-	-	-
+85962.HP1100	-	-	none	none	-	-	-
+85962.HP1101	-	-	none	none	-	-	-
+85962.HP1107	-	-	none	none	-	-	-
+85962.HP1104	-	-	none	none	-	-	-
+85962.HP0505	-	-	none	none	-	-	-
+85962.HP0504	-	-	none	not used	-	-	-
+85962.HP0507	-	-	none	none	-	-	-
+85962.HP0501	-	-	none	none	-	-	-
+85962.HP0500	-	-	none	none	-	-	-
+85962.HP0503	-	-	none	none	-	-	-
+85962.HP0509	-	-	none	none	-	-	-
+85962.HP0618	-	-	none	none	-	-	-
+85962.HP0347	-	-	none	none	-	-	-
+85962.HP0346	-	-	none	none	-	-	-
+85962.HP0617	-	-	none	none	-	-	-
+85962.HP0616	-	-	none	none	-	-	-
+85962.HP1519	-	-	none	none	-	-	-
+85962.HP0063	-	-	none	none	-	-	-
+85962.HP1048	-	-	none	none	-	-	-
+85962.HP1047	-	-	none	none	-	-	-
+85962.HP1046	-	-	none	none	-	-	-
+85962.HP1045	-	-	none	none	-	-	-
+85962.HP1043	-	-	none	none	-	-	-
+85962.HP1041	-	-	none	none	-	-	-
+85962.HP1040	-	-	none	none	-	-	-
+85962.HP0903m	-	-	none	none	-	-	-
+85962.HP1161	-	-	none	none	-	-	-
+85962.HP1134	-	-	none	none	-	-	-
+85962.HP1244	-	-	none	none	-	-	-
+85962.HP1246	-	-	none	none	-	-	-
+85962.HP1241	-	-	none	none	-	-	-
+85962.HP1240	-	-	none	none	-	-	-
+85962.HP1242	-	-	none	none	-	-	-
+85962.HP1029	-	-	none	none	-	-	-
+85962.HP1020	-	-	none	none	-	-	-
+85962.HP1022	-	-	none	none	-	-	-
+85962.HP1025	-	-	none	none	-	-	-
+85962.HP1024	-	-	none	none	-	-	-
+85962.HP1027	-	-	none	none	-	-	-
+85962.HP1026	-	-	none	none	-	-	-
+85962.HP0751	-	-	none	none	-	-	-
+85962.HP0752	-	-	none	none	-	-	-
+85962.HP0753	-	-	none	none	-	-	-
+85962.HP0754	-	-	none	none	-	-	-
+85962.HP0755	-	-	none	none	-	-	-
+85962.HP0756	-	-	none	not used	-	-	-
+85962.HP0757	-	-	none	none	-	-	-
+85962.HP1116	-	-	none	none	-	-	-
+85962.HP1111	-	-	none	none	-	-	-
+85962.HP1110	-	-	none	none	-	-	-
+85962.HP1112	-	-	none	none	-	-	-
+85962.HP0196	-	-	none	none	-	-	-
+85962.HP0197	-	-	none	none	-	-	-
+85962.HP0192	-	-	none	none	-	-	-
+85962.HP0191	-	-	none	none	-	-	-
+85962.HP0570	-	-	none	none	-	-	-
+85962.HP0571	-	-	none	none	-	-	-
+85962.HP0572	-	-	none	none	-	-	-
+85962.HP0577	-	-	none	none	-	-	-
+85962.HP0372	-	-	none	none	-	-	-
+85962.HP0373	-	-	none	none	-	-	-
+85962.HP0370	-	-	none	none	-	-	-
+85962.HP0371	-	-	none	none	-	-	-
+85962.HP0376	-	-	none	none	-	-	-
+85962.HP0374	-	-	none	none	-	-	-
+85962.HP0375	-	-	none	none	-	-	-
+85962.HP0404	-	-	none	none	-	-	-
+85962.HP0405	-	-	none	none	-	-	-
+85962.HP0406	-	-	none	none	-	-	-
+85962.HP0400	-	-	none	none	-	-	-
+85962.HP0401	-	-	none	none	-	-	-
+85962.HP0402	-	-	none	none	-	-	-
+85962.HP0403	-	-	none	none	-	-	-
+85962.HP0225	-	-	-	-	-	-	<25_AA
+85962.HP0996	-	-	none	none	-	-	-
+85962.HP0995	-	-	none	none	-	-	-
+85962.HP0993	-	-	none	none	-	-	-
+85962.HP0990	-	-	none	none	-	-	-
+85962.HP0991	-	-	none	none	-	-	-
+85962.HP0999	-	-	none	none	-	-	-
+85962.HP0010	-	-	none	none	-	-	-
+85962.HP0978	-	-	none	none	-	-	-
+85962.HP0979	-	-	none	none	-	-	-
+85962.HP0974	-	-	none	none	-	-	-
+85962.HP0975	-	-	none	none	-	-	-
+85962.HP0976	-	-	none	none	-	-	-
+85962.HP0972	-	-	none	none	-	-	-
+85962.HP1037	-	-	none	none	-	-	-
+85962.HP1238	-	-	none	none	-	-	-
+85962.HP1239	-	-	not used	not used	-	-	-
+85962.HP1230	-	-	none	none	-	-	-
+85962.HP1231	-	-	none	none	-	-	-
+85962.HP1232	-	-	none	none	-	-	-
+85962.HP1233	-	-	none	none	-	-	-
+85962.HP1584	-	-	none	none	-	-	-
+85962.HP1582	-	-	none	none	-	-	-
+85962.HP1583	-	-	none	none	-	-	-
+85962.HP1345	-	-	none	none	-	-	-
+85962.HP1343	-	-	none	none	-	-	-
+85962.HP1560	-	-	-	-	-	-	protein_alphabet_unknown
+85962.HP1563	-	-	none	none	-	-	-
+85962.HP0741	-	-	none	none	-	-	-
+85962.HP0747	-	-	none	none	-	-	-
+85962.HP0745	-	-	none	none	-	-	-
+85962.HP0188	-	-	not used	not used	-	-	-
+85962.HP1162	-	-	none	none	-	-	-
+85962.HP1164	-	-	none	none	-	-	-
+85962.HP1166	-	-	none	none	-	-	-
+85962.HP0183	-	-	none	none	-	-	-
+85962.HP0182	-	-	none	none	-	-	-
+85962.HP0185	-	-	none	none	-	-	-
+85962.HP0184	-	-	none	none	-	-	-
+85962.HP0562	-	-	none	none	-	-	-
+85962.HP0561	-	-	none	none	-	-	-
+85962.HP0566	-	-	none	none	-	-	-
+85962.HP0565	-	-	none	none	-	-	-
+85962.HP0564	-	-	none	not used	-	-	-
+85962.HP0568	-	-	none	none	-	-	-
+85962.HP0365	-	-	not used	not used	-	-	-
+85962.HP0364	-	-	none	none	-	-	-
+85962.HP0366	-	-	none	none	-	-	-
+85962.HP0361	-	-	none	none	-	-	-
+85962.HP0363	-	-	none	none	-	-	-
+85962.HP0368	-	-	none	none	-	-	-
+85962.HP0419	-	-	none	none	-	-	-
+85962.HP0418	-	-	none	none	-	-	-
+85962.HP0417	-	-	none	none	-	-	-
+85962.HP0414	-	-	none	none	-	-	-
+85962.HP0413	-	-	none	none	-	-	-
+85962.HP0412	-	-	not used	not used	-	-	-

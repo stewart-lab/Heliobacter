@@ -13,24 +13,6 @@ UNIPROT_IDS_FILE = "../Data/uniprot_hecliobacter_ids.csv"
 REV_C = str.maketrans("ACGT", "TGCA")
 
 
-def get_uniprot_ids():
-    with open(UNIPROT_IDS_FILE, "r") as f:
-        return [line.split()[0] for line in f][1:]
-
-
-def get_uniprot_seqs():
-    """
-    https://github.com/boscoh/uniprot
-
-    Uniprot.org provides a seqid mapping service, but you must specify the 
-    seqid types, which are listed at 
-    http://www.uniprot.org/faq/28#id_mapping_examples.
-    """
-    ids = get_uniprot_ids()
-    seqs = uniprot.batch_uniprot_metadata(" ".join(ids))
-    return dict(zip(ids, seqs))
-
-
 def main(my_args):
     proteins = get_uniprot_seqs()
     df = cast_proteins_as_df(proteins)
@@ -58,6 +40,23 @@ def main(my_args):
         sz=int(my_args["tile_sz"]),
         shift=int(my_args["tile_shift"]),
     )
+
+def get_uniprot_ids():
+    with open(UNIPROT_IDS_FILE, "r") as f:
+        return [line.split()[0] for line in f][1:]
+
+
+def get_uniprot_seqs():
+    """
+    https://github.com/boscoh/uniprot
+
+    Uniprot.org provides a seqid mapping service, but you must specify the 
+    seqid types, which are listed at 
+    http://www.uniprot.org/faq/28#id_mapping_examples.
+    """
+    ids = get_uniprot_ids()
+    seqs = uniprot.batch_uniprot_metadata(" ".join(ids))
+    return dict(zip(ids, seqs))
 
 
 def cast_proteins_as_df(proteins):
@@ -245,6 +244,8 @@ def parse_cds(fields):
 
 
 if __name__ == "__main__":
+    if len(sys.argv) == 1:
+        main({})
     (start_time_secs, pretty_start_time, my_args, logfile) = cmdlogtime.begin(
         COMMAND_LINE_DEF_FILE, sys.argv[0]
     )

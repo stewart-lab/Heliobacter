@@ -1,20 +1,41 @@
 from Bio import SeqIO
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
+from Bio.Data import CodonTable
 from pathlib import Path
 import cmdlogtime
 import generateOligos as genO
 import pandas as pd
 import sys
 import uniprot
+import requests
 
-COMMAND_LINE_DEF_FILE = "./faa_tiles_cmdlinedef.txt"
-UNIPROT_IDS_FILE = "../Data/uniprot_hecliobacter_ids.csv"
 REV_C = str.maketrans("ACGT", "TGCA")
+COMMAND_LINE_DEF_FILE = "./faa_tiles_cmdlinedef.txt"
+DATA = Path("../Data")
+UNIPROT_IDS_FILE = DATA / "uniprot_hecliobacter_ids.csv"
+ID_MAP_FILE = (
+    DATA
+    / "uniprot-helicobacter+pylori-filtered-organism__Helicobacter+pylori+(strain--.tab"
+)
+URL_BASE = "https://www.uniprot.org/uniprot"
+OUTFILE = "Helio_Effector_tiled.fa"
 
 
-def main(my_args):
+def main(out_dir= DATA, step=10, oligoLen=30, **my_args):
     proteins = get_uniprot_seqs()
+    
+    with open(Path(out_dir]) / OUTFILE, 'w') as out:
+        for index, row in df.iterrows():
+            cds = row['NA_Seq'][:-3]
+            if len(cds) <=  oligoLen:
+                write_row
+
+            chun
+            header = f'{row[Entry]}
+
+
+
     df = cast_proteins_as_df(proteins)
     GENOME = my_args["genome"]
     GFF = my_args["gff"]
@@ -23,17 +44,14 @@ def main(my_args):
     add_na_seqs(proteins, GENOME)
     genO.makeOligos(
         df=df,
-        step=10,
-        oligoLen=30,
+        step=step,
+        oligoLen=oligoLen,
         filterDesc="",
         out_file="oligo_out.csv",
         do_opt="CodonOpt",
     )
     exit()
 
-    outfile = Path(my_args["out_dir"]) / (
-        Path(GFF).name.split(".")[0] + "_tiled.fa"
-    )
     make_tiled_fasta(
         proteins,
         outfile=outfile,
@@ -41,12 +59,62 @@ def main(my_args):
         shift=int(my_args["tile_shift"]),
     )
 
+
+def get_uniprot_seqs():
+    try:
+        df = pd.read_csv("../Data/aa_df.tsv", sep="\t", index_col=0)
+        return df
+    except FileNotFoundError:
+        pass
+
+    df_all = pd.read_csv(ID_MAP_FILE, sep="\t")
+    df_all["HP_ids"] = df_all["Gene names"].apply(get_hp_id)
+
+    df_eff = pd.read_csv(UNIPROT_IDS_FILE, sep="\t", index_col=0)
+    df_eff["HP_ids"] = [f'HP_{el.split(".")[1][2:]}' for el in df_eff.index]
+
+    df = pd.merge(
+        df_eff, df_all[["Entry", "HP_ids"]], on="HP_ids", how="inner"
+    )
+    df = df[df["T4SS effector prediction (T4SEpre)"] == "YES"]
+    df["AA_Seq"] = df.Entry.apply(get_uniprot_aa)
+    df["NA_Seq"] = df.AA_Seq.apply(get_na_from_aa)
+    df = df.set_index("Entry")
+    df.to_csv("../Data/aa_df.tsv", sep="\t")
+    return df
+
+
+def get_na_from_aa(aa):
+    table = CodonTable.generic_by_name["Bacterial"].back_table
+    ans =  "".join([table[el] for el in aa])
+    return ans.replace('U','T')
+
+
+
+def get_hp_id(name):
+    for el in name.split():
+        if el.startswith("HP_"):
+            return el
+    return "undefined"
+
+
+def get_uniprot_aa(p):
+    txt = requests.get(f"{URL_BASE}/{p}.fasta").text
+    ans = "".join(txt.split("\n")[1:])
+    try:
+        for char in ans:
+            assert char in "GAMLMFWQESKPVICYHRNDT"
+        return ans
+    except AssertionError:
+        return ""
+
+
 def get_uniprot_ids():
     with open(UNIPROT_IDS_FILE, "r") as f:
         return [line.split()[0] for line in f][1:]
 
 
-def get_uniprot_seqs():
+def get_uniprot_seqs_old():
     """
     https://github.com/boscoh/uniprot
 

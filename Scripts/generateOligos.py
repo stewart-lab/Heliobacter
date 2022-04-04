@@ -68,7 +68,7 @@ def get_parser():
     return parser
 
 
-def optimizeOligo(dna_sequence, pattern):
+def optimizeOligo(dna_sequence, pattern=dc.EnzymeSitePattern("BsmBI")):
     problem = dc.DnaOptimizationProblem(
         sequence=dna_sequence,
         constraints=[

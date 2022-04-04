@@ -22,19 +22,21 @@ URL_BASE = "https://www.uniprot.org/uniprot"
 OUTFILE = "Helio_Effector_tiled.fa"
 
 
-def main(out_dir= DATA, step=10, oligoLen=30, **my_args):
+def main(out_dir=DATA, step=30, oligoLen=240, **my_args):
     proteins = get_uniprot_seqs()
-    
-    with open(Path(out_dir]) / OUTFILE, 'w') as out:
-        for index, row in df.iterrows():
-            cds = row['NA_Seq'][:-3]
-            if len(cds) <=  oligoLen:
-                write_row
 
-            chun
-            header = f'{row[Entry]}
-
-
+    with open(Path(out_dir) / OUTFILE, "w") as out:
+        for index, row in proteins.iterrows():
+            cds = row["NA_Seq"][:-3]
+            if len(cds) <= oligoLen:
+                write_row(fp=out, chnk_num=0, id=index, row=row, seq=cds)
+                continue
+            for i, chunk in enumerate(
+                genO.slidingWindow(cds, winSize=oligoLen, step=step)
+            ):
+                write_row(
+                    fp=out, chnk_num=i, id=index, row=row, seq="".join(chunk)
+                )
 
     df = cast_proteins_as_df(proteins)
     GENOME = my_args["genome"]
@@ -52,12 +54,12 @@ def main(out_dir= DATA, step=10, oligoLen=30, **my_args):
     )
     exit()
 
-    make_tiled_fasta(
-        proteins,
-        outfile=outfile,
-        sz=int(my_args["tile_sz"]),
-        shift=int(my_args["tile_shift"]),
+
+def write_row(fp, chnk_num, id, row, seq):
+    fp.write(
+        f"Heliobacter_Pylori_Effector {id} {row['HP_ids']} Tile {chnk_num+1}\n"
     )
+    fp.write(f"{genO.optimizeOligo(seq)}\n")
 
 
 def get_uniprot_seqs():
@@ -86,9 +88,8 @@ def get_uniprot_seqs():
 
 def get_na_from_aa(aa):
     table = CodonTable.generic_by_name["Bacterial"].back_table
-    ans =  "".join([table[el] for el in aa])
-    return ans.replace('U','T')
-
+    ans = "".join([table[el] for el in aa])
+    return ans.replace("U", "T")
 
 
 def get_hp_id(name):
@@ -313,7 +314,7 @@ def parse_cds(fields):
 
 if __name__ == "__main__":
     if len(sys.argv) == 1:
-        main({})
+        main()
     (start_time_secs, pretty_start_time, my_args, logfile) = cmdlogtime.begin(
         COMMAND_LINE_DEF_FILE, sys.argv[0]
     )

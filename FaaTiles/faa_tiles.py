@@ -38,22 +38,6 @@ def main(out_dir=DATA, step=30, oligoLen=240, **my_args):
                     fp=out, chnk_num=i, id=index, row=row, seq="".join(chunk)
                 )
 
-    df = cast_proteins_as_df(proteins)
-    GENOME = my_args["genome"]
-    GFF = my_args["gff"]
-    PROTEIN = my_args["protein"]
-    proteins = build_protein_metadata(GFF, PROTEIN)
-    add_na_seqs(proteins, GENOME)
-    genO.makeOligos(
-        df=df,
-        step=step,
-        oligoLen=oligoLen,
-        filterDesc="",
-        out_file="oligo_out.csv",
-        do_opt="CodonOpt",
-    )
-    exit()
-
 
 def write_row(fp, chnk_num, id, row, seq):
     fp.write(
@@ -315,8 +299,12 @@ def parse_cds(fields):
 if __name__ == "__main__":
     if len(sys.argv) == 1:
         main()
-    (start_time_secs, pretty_start_time, my_args, logfile) = cmdlogtime.begin(
-        COMMAND_LINE_DEF_FILE, sys.argv[0]
-    )
-    main(my_args)
-    cmdlogtime.end(logfile, start_time_secs)
+    else:
+        (
+            start_time_secs,
+            pretty_start_time,
+            my_args,
+            logfile,
+        ) = cmdlogtime.begin(COMMAND_LINE_DEF_FILE, sys.argv[0])
+        main(my_args)
+        cmdlogtime.end(logfile, start_time_secs)

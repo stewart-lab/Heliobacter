@@ -4,11 +4,11 @@ from Bio.SeqRecord import SeqRecord
 from Bio.Data import CodonTable
 from pathlib import Path
 import cmdlogtime
-import generateOligos as genO
 import pandas as pd
 import sys
 import uniprot
 import requests
+import dnachisel as dc
 
 REV_C = str.maketrans("ACGT", "TGCA")
 COMMAND_LINE_DEF_FILE = "./faa_tiles_cmdlinedef.txt"
@@ -32,18 +32,74 @@ def main(out_dir=DATA, step=30, oligoLen=240, **my_args):
                 write_row(fp=out, chnk_num=0, id=index, row=row, seq=cds)
                 continue
             for i, chunk in enumerate(
-                genO.slidingWindow(cds, winSize=oligoLen, step=step)
+                slidingWindow(cds, winSize=oligoLen, step=step)
             ):
                 write_row(
                     fp=out, chnk_num=i, id=index, row=row, seq="".join(chunk)
                 )
 
 
+def optimizeOligo(
+    dna_sequence, pattern=dc.EnzymeSitePattern("BsmBI"), species="h_sapiens"
+):
+    """ Repurposd from Josh Tycko 2018 Script """
+    problem = dc.DnaOptimizationProblem(
+        sequence=dna_sequence,
+        constraints=[
+            dc.AvoidPattern(pattern),
+            dc.EnforceGCContent(mini=0.20, maxi=0.75, window=50),
+            dc.EnforceTranslation(),
+        ],
+        objectives=[dc.CodonOptimize(species=species)],
+    )
+    try:
+        problem.resolve_constraints()
+    except (TypeError, KeyError):
+        print("optimization failed")
+        return dna_sequence
+    problem.optimize()
+    optDNA = str(problem.sequence)
+    return optDNA
+
+
+def slidingWindow(sequence, winSize, step=1):
+    """ Repurposd from Josh Tycko 2018 Script 
+    
+    Returns a generator that will iterate through
+    the defined chunks of input sequence.  Input sequence
+    must be iterable."""
+
+    sequence = sequence[: len(sequence)]
+
+    # Verify the inputs
+    try:
+        iter(sequence)
+    except TypeError:
+        raise Exception("**ERROR** sequence must be iterable.")
+    if not (isinstance(winSize, int) and isinstance(step, int)):
+        raise Exception("**ERROR** winSize and step must be int.")
+    if step > winSize:
+        raise Exception("**ERROR** step must not be larger than winSize.")
+    if winSize > len(sequence):
+        raise Exception(
+            "**ERROR** winSize must not be larger than sequence length."
+        )
+
+    # Pre-compute number of chunks to emit
+    numOfChunks = int((len(sequence) - winSize) / step) + 1
+
+    # Do the work
+    for i in range(0, numOfChunks * step, step):
+        yield sequence[i : i + winSize]
+    # Add one more chunk, which goes to the very end
+    yield sequence[-winSize:]
+
+
 def write_row(fp, chnk_num, id, row, seq):
     fp.write(
         f"Heliobacter_Pylori_Effector {id} {row['HP_ids']} Tile {chnk_num+1}\n"
     )
-    fp.write(f"{genO.optimizeOligo(seq)}\n")
+    fp.write(f"{optimizeOligo(seq)}\n")
 
 
 def get_uniprot_seqs():

@@ -3,9 +3,15 @@ from pathlib import Path
 from Bio import SeqIO
 from Bio.SeqIO.QualityIO import FastqGeneralIterator
 import gzip
+import socket
 
-DATA = Path.home() / 'Hess/Data'
-FASTQ_HOME = DATA / 'Hess_Fastqs'
+HOSTNAME = socket.gethostname()
+if 'chtc' in HOSTNAME:
+    DATA = Path('../Data')
+    FASTQ_HOME = Path("/staging/steill")
+else:
+    DATA = Path.home() / 'Hess/Data'
+    FASTQ_HOME = DATA / 'Hess_Fastqs'
 REF = 'gtgcaccttgaagcgcatgaactccttgatgatggccatgttatcctcctcgcccttgctcaccattgggccaggattctcctcgacatc'
 
 # https://pypi.org/project/swalign/

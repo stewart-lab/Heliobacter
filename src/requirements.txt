@@ -2,6 +2,7 @@ pandas
 biopython
 dnachisel
 jupyterlab
-scikit-bio
 pytest
 matplotlib
+htcondor
+swalign

@@ -13,7 +13,8 @@ else:
     DATA = Path.home() / 'Hess/Data'
     FASTQ_HOME = DATA / 'Hess_Fastqs'
 REF = 'gtgcaccttgaagcgcatgaactccttgatgatggccatgttatcctcctcgcccttgctcaccattgggccaggattctcctcgacatc'
-
+DEFAULT_GLOB_PATTERN = "Nuc_*.fastq.gz"
+DEFAULT_DOMAIN_FILE = FASTQ_HOME / "NucDomain_oligos.csv" # DDRTile_oligos.csv
 # https://pypi.org/project/swalign/
 # choose your own values here… 2 and -1 are common.
 MATCH = 2
@@ -22,6 +23,17 @@ SW = swalign.LocalAlignment(swalign.NucleotideScoringMatrix(MATCH, MISMATCH))
 
 def main():
     pass
+
+def get_best_domain(r2, domain_file = DEFAULT_DOMAIN_FILE):
+    return str(10*int(r2))
+
+def get_cigar(r1):
+    return f'M{r1}'
+
+def get_pairs(n=10, glob_ptrn=DEFAULT_GLOB_PATTERN):
+    
+    for i in range(n):
+        yield (i, -i)
 
 def sequence_strider(glob_ptrn, seqs_per_file=10, step_size=100):
     for ko_file in FASTQ_HOME.glob(glob_ptrn):
